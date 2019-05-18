@@ -12,10 +12,10 @@ body {
 
 			div.div { 
     				margin: 20px;
-				color: #FF1493;
-				font-size: 30px;
+				color: #FFFFFF;
+				font-size: 20pt;
 				padding: 5px 5px;
-				background-color: orange;
+				background-color: blue;
 				-moz-border-radius: 15px;
 				-webkit-border-radius: 15px;
 			}
