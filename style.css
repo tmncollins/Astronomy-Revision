@@ -1,12 +1,30 @@
+@font-face {
+  font-family: 'spacebar';
+  src: url('SPACEBAR.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('SPACEBAR.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
 body {
   background-image: url("Stars-fixed.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+			div.div { 
+    				margin: 20px;
+				color: #FF1493;
+				font-size: 30px;
+				padding: 5px 5px;
+				background-color: orange;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+			}
+
+
 h1  {
        text-align: center;
        font-size: 12pt;
+       font-family: 
        color: #000099;
        margin-bottom: 5px;
        text-decoration: underline;
