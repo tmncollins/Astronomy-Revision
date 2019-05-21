@@ -21,26 +21,17 @@ body {
 			}
 
 a:hover {
-	font-size: 12pt;
+	font-size: 25pt;
 }
 
 a:link {
   color: white; 
-	font-size: 10pt;
   background-color: transparent; 
   text-decoration: none;
 }
 
 a:visited {
   color: white;
-	font-size: 10pt;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: white;
-	font-size: 10pt;
   background-color: transparent;
   text-decoration: none;
 }
@@ -48,7 +39,6 @@ a:hover {
 a:active {
   color: white;
   background-color: transparent;
-	font-size: 10pt;
   text-decoration: none;
 }
 h1  {
