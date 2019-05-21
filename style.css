@@ -15,9 +15,11 @@ body {
 				color: #FFFFFF;
 				font-size: 20pt;
 				padding: 10px 10px;
-				background-color: orange;
+				background-color: blue;
 				-moz-border-radius: 15px;
 				-webkit-border-radius: 15px;
+				border-style: solid;
+				border-colour: white;
 			}
 
 a:hover {
@@ -26,6 +28,7 @@ a:hover {
 
 a:link {
   color: white; 
+  cursor: pointer;
   background-color: transparent; 
   text-decoration: none;
 }
