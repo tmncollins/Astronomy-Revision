@@ -5,5 +5,9 @@ function newPage(name, num) {
 }
 
 function getQuizName() {
-  return sessionStorage.getItem('quiz_name')
+  return sessionStorage.getItem('quiz_name');
+}
+
+function returnString() {
+  return "Hi!"; 
 }
