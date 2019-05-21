@@ -24,6 +24,7 @@ body {
 
 a:hover {
 	font-size: 25pt;
+	  cursor: pointer;
 }
 
 a:link {
@@ -34,12 +35,14 @@ a:link {
 }
 
 a:visited {
+  cursor: pointer;
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:active {
+  cursor: pointer;
   color: white;
   background-color: transparent;
   text-decoration: none;
