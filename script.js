@@ -44,7 +44,13 @@ alert(lines);
   
 lines.forEach(function(item, index) {
   var curr = item.split("+");
-  var text = index.toString(10) + ". " + curr[0];
+  var text = (index+1).toString(10) + ". " + curr[0];
+  var type = curr[1];
+  var ans =  curr[2];
+  
+  var form = document.createElement("form");
+  form.setAttribute('method',"post");
+  form.setAttribute('action',"submit.php");
   
   var q = document.createElement("div");
   q.className = "div";
@@ -53,13 +59,18 @@ lines.forEach(function(item, index) {
   para.appendChild(t);
   q.appendChild(para);
   d.appendChild(q);
-  alert(item);
+  
+  if (type == " wn ") {
+    var inp = document.createElement("input"); //input element, text
+    inp.setAttribute('type',"number");
+    form.appendChild(inp)
+  }
+  d.appendChild(form);
 });
   
 alert("a");
   
 
-  
   
   f.setAttribute('method',"post");
   f.setAttribute('action',"submit.php");
