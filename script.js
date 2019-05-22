@@ -35,6 +35,7 @@ function makeQuiz(file)  {
   
   
   var text = readTextFile(file);
+  alert(text);
   var lines = text.split("\n");
   
 alert(lines);
