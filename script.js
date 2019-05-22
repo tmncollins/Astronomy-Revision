@@ -33,7 +33,10 @@ function readTextFile(file)
 
 function makeQuiz(file)  {
   
+  alert("a");
+  
   var text = readTextFile(file);
+alert("b");
   var lines = text.split("\n");
   
   alert("0");
