@@ -23,7 +23,7 @@ button.link {
   transition-duration: 0.4s;
 }
 
-.button:hover {
+button.link:hover {
 	font-size: 25pt;
 }
 
