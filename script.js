@@ -36,7 +36,6 @@ function makeQuiz(file)  {
   
   
   var text = readTextFile(file);
-  alert(text);
   var lines = text.split("\n");
   
 alert(lines);
@@ -46,8 +45,11 @@ alert(lines);
 lines.forEach(function(item, index) {
   alert("hello");
   var q = document.createElement("div");
+  alert("1");
   q.className = "div";
+  alert("2");
   q.appendChild(item);
+  alert("3");
   d.appendChild(q);
   alert(item);
 });
