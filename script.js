@@ -58,14 +58,17 @@ lines.forEach(function(item, index) {
   var t = document.createTextNode(text);      // Create a text node
   para.appendChild(t);
   q.appendChild(para);
-  d.appendChild(q);
   
   if (type == " wn ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"number");
     form.appendChild(inp)
   }
-  d.appendChild(form);
+  
+  q.appendChild(form);
+
+  d.appendChild(q);
+ 
 });
   
 alert("a");
