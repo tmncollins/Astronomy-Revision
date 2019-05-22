@@ -33,41 +33,32 @@ function readTextFile(file)
 
 function makeQuiz(file)  {
   
-  alert("a");
   
   var text = readTextFile(file);
-alert("b");
   var lines = text.split("\n");
   
-  alert("0");
 
-//  var d = document.createElement("div");
+  var d = document.createElement("div");
   var f = document.createElement("form");
   
-  alert("1");
   
   f.setAttribute('method',"post");
   f.setAttribute('action',"submit.php");
 
-    alert("2");
   
   var i = document.createElement("input"); //input element, text
   i.setAttribute('type',"number");
-    alert("3");
-
+ 
   var s = document.createElement("input"); //input element, Submit button
   s.setAttribute('type',"submit");
   s.setAttribute('value',"Submit");
-  alert("4");
-
+ 
   f.appendChild(i);
   f.appendChild(s);
-  alert("5");
   
 //and some more input elements here
 //and dont forget to add a submit button
-//d.appendChild(f);
-//document.getElementsByTagName('body')[0].appendChild(d);  
+d.appendChild(f);
+document.getElementsByTagName('body')[0].appendChild(d);  
   document.getElementsByTagName('body')[0].appendChild(f);  
-  alert("6");
-}
+ }
