@@ -67,7 +67,7 @@ lines.forEach(function(item, index) {
   var curr = item.split("+");
   var text = (index+1).toString(10) + ". " + curr[0];
   var type = curr[1];
-  var ans =  curr[2];
+  var ans =  curr[-1];
   
   var form = document.createElement("form");
   form.setAttribute('method',"post");
@@ -91,8 +91,8 @@ lines.forEach(function(item, index) {
     q.appendChild(inp);
   }
   else if (type == " rb ") {
-    type = type.split(";");
-    type.forEach(function(option, ind) {
+    var opt = curr[2].split(";");
+    opt.forEach(function(option, ind) {
       var inp = document.createElement("input"); //input element, text
       inp.setAttribute('type',"radio");
       inp.setAttribute('name',index.toString(0));
