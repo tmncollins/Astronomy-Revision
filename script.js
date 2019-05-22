@@ -43,7 +43,8 @@ alert(lines);
   var d = document.createElement("div");
   var f = document.createElement("form");
   
-lines.forEach(function(item) {
+lines.forEach(function(item, index) {
+  alert("hello");
   var q = document.createElement("div");
   q.className = "div";
   q.appendChild(item);
