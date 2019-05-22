@@ -4,6 +4,26 @@ function newPage(name, num) {
   sessionStorage.setItem('quiz_name', name)
 }
 
+function shuffle(array) {
+    let counter = array.length;
+
+    // While there are elements in the array
+    while (counter > 0) {
+        // Pick a random index
+        let index = Math.floor(Math.random() * counter);
+
+        // Decrease counter by 1
+        counter--;
+
+        // And swap the last element with it
+        let temp = array[counter];
+        array[counter] = array[index];
+        array[index] = temp;
+    }
+
+    return array;
+}
+
 function getQuizName() {
   return sessionStorage.getItem('quiz_name');
 }
@@ -38,6 +58,8 @@ function makeQuiz(file)  {
   var text = readTextFile(file);
   var lines = text.split("\n");
   
+  lines = shuffle(lines);
+  
 alert(lines);
   var d = document.createElement("div");
   var f = document.createElement("form");
@@ -62,6 +84,11 @@ lines.forEach(function(item, index) {
   if (type == " wn ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"number");
+    form.appendChild(inp)
+  }
+  else if (type == " ww ") {
+    var inp = document.createElement("input"); //input element, text
+    inp.setAttribute('type',"text");
     form.appendChild(inp)
   }
   
