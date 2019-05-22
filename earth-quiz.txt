@@ -1,1 +1,2 @@
 What is the diameter of the Earth in km? + wn + 13000
+What is the Earth's age in billion years (to 1dp)? + ww + 4.5
