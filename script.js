@@ -83,12 +83,12 @@ lines.forEach(function(item, index) {
   if (type == " wn ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"number");
-    q.appendChild(inp);
+    form.appendChild(inp);
   }
   else if (type == " ww ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"text");
-    q.appendChild(inp);
+    form.appendChild(inp);
   }
   else if (type == " rb ") {
     var opt = curr[2].split(";");
@@ -97,12 +97,13 @@ lines.forEach(function(item, index) {
       inp.setAttribute('type',"radio");
       inp.setAttribute('name',index.toString(0));
       inp.setAttribute('value',option);
-      q.appendChild(inp);  
+      form.appendChild(inp);  
     });
     
     }
   
-  form.appendChild(q)
+  q.appendChild(form)
+  d.appendChild(q)
 });
   
   
