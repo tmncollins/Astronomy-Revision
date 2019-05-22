@@ -16,6 +16,7 @@ function readTextFile(file)
 {
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
+    var allText = "";
     rawFile.onreadystatechange = function ()
     {
         if(rawFile.readyState === 4)
@@ -23,17 +24,19 @@ function readTextFile(file)
             if(rawFile.status === 200 || rawFile.status == 0)
             {
                 var allText = rawFile.responseText;
-                return allText;
             }
         }
     }
     rawFile.send(null);
+    return allText;
 }
 
 function makeQuiz(file)  {
   
   var text = readTextFile(file);
   var lines = text.split("\n");
+  
+  alert("0");
 
 //  var d = document.createElement("div");
   var f = document.createElement("form");
