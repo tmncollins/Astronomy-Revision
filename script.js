@@ -54,13 +54,12 @@ function readTextFile(file)
 
 function makeQuiz(file)  {
   
-  
   var text = readTextFile(file);
   var lines = text.split("\n");
   
+  lines.pop();
   lines = shuffle(lines);
   
-alert(lines);
   var d = document.createElement("div");
   var f = document.createElement("form");
   
@@ -84,23 +83,23 @@ lines.forEach(function(item, index) {
   if (type == " wn ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"number");
-    form.appendChild(inp)
+    q.appendChild(inp);
   }
   else if (type == " ww ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"text");
-    form.appendChild(inp)
+    q.appendChild(inp);
+  }
+  else if (type == " rb ") {
+    type = type.split(";");
+    var inp = document.createElement("input"); //input element, text
+    inp.setAttribute('type',"radio");
+    q.appendChild(inp);
   }
   
-  q.appendChild(form);
-
-  d.appendChild(q);
- 
+  form.append(q)
 });
   
-alert("a");
-  
-
   
   f.setAttribute('method',"post");
   f.setAttribute('action',"submit.php");
