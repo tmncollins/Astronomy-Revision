@@ -35,7 +35,7 @@ function makeQuiz(file)  {
   var text = readTextFile(file);
   var lines = text.split("\n");
 
-  var d = document.createElement("div");
+//  var d = document.createElement("div");
   var f = document.createElement("form");
   
   alert("1");
