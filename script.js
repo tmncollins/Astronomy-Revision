@@ -32,17 +32,13 @@ function readTextFile(file)
 
 function makeQuiz(file)  {
   alert(file);
-  aler("Aye up")
+  alert("Aye up");
   
   var text = readTextFile(file);
-  var lines = text.split("\n")
+  var lines = text.split("\n");
 
   var d = document.createElement("div");
   var f = document.createElement("form");
-  
-  lines.forEach(function (item, index) {
-    alert(item);
-  });
   
 f.setAttribute('method',"post");
 f.setAttribute('action',"submit.php");
