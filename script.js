@@ -92,12 +92,17 @@ lines.forEach(function(item, index) {
   }
   else if (type == " rb ") {
     type = type.split(";");
-    var inp = document.createElement("input"); //input element, text
-    inp.setAttribute('type',"radio");
-    q.appendChild(inp);
-  }
+    type.forEach(function(option, ind) {
+      var inp = document.createElement("input"); //input element, text
+      inp.setAttribute('type',"radio");
+      inp.setAttribute('name',index.toString(0));
+      inp.setAttribute('value',option);
+      q.appendChild(inp);  
+    });
+    
+    }
   
-  form.append(q)
+  form.appendChild(q)
 });
   
   
