@@ -31,8 +31,6 @@ function readTextFile(file)
 }
 
 function makeQuiz(file)  {
-  alert(file);
-  alert("Aye up");
   
   var text = readTextFile(file);
   var lines = text.split("\n");
@@ -55,7 +53,7 @@ f.appendChild(s);
   
 //and some more input elements here
 //and dont forget to add a submit button
-d.appendChild(f);
-document.getElementsByTagName('body')[0].appendChild(d);  
+//d.appendChild(f);
+//document.getElementsByTagName('body')[0].appendChild(d);  
 document.getElementsByTagName('body')[0].appendChild(f);  
 }
