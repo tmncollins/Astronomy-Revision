@@ -30,9 +30,17 @@ function readTextFile(file)
     rawFile.send(null);
 }
 
-function makeQuiz()  {
+function makeQuiz(file)  {
+  var text = readTextFile(file);
+  var lines = text.split("\n")
+
   var d = document.createElement("div");
   var f = document.createElement("form");
+  
+  lines.forEach(function (item, index) {
+    
+  });
+  
 f.setAttribute('method',"post");
 f.setAttribute('action',"submit.php");
 
