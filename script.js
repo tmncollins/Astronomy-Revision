@@ -38,7 +38,7 @@ function makeQuiz(file)  {
   var f = document.createElement("form");
   
   lines.forEach(function (item, index) {
-    
+    alert(item);
   });
   
 f.setAttribute('method',"post");
