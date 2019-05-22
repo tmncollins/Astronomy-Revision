@@ -43,10 +43,13 @@ alert(lines);
   var f = document.createElement("form");
   
 lines.forEach(function(item, index) {
+  var curr = item.split("+");
+  var text = index.toString(10) + ". " + curr[0];
+  
   var q = document.createElement("div");
   q.className = "div";
   var para = document.createElement("P");                       // Create a <p> node
-  var t = document.createTextNode(item);      // Create a text node
+  var t = document.createTextNode(text);      // Create a text node
   para.appendChild(t);
   q.appendChild(para);
   d.appendChild(q);
