@@ -102,8 +102,8 @@ lines.forEach(function(item, index) {
     
     }
   
-  q.appendChild(form)
-  d.appendChild(q)
+  q.appendChild(form);
+  d.appendChild(q);
 });
   
   
