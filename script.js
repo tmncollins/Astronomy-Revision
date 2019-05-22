@@ -45,6 +45,7 @@ lines.forEach(function(item, index) {
   q.className = "div";
   q.appendChild(item);
   d.appendChild(q);
+  alert(item)
 });
   
 
