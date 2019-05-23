@@ -108,8 +108,11 @@ lines.forEach(function(item, index) {
     opt.forEach(function(option, ind) {
       alert(option);
       var inp = createRadioElement(index.toString(), option, False);
+      alert("1");
       q.appendChild(inp);  
+      alert("2");
     });
+      alert("3");
     
     }
   
