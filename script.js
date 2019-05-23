@@ -5,7 +5,7 @@ function newPage(name, num) {
 }
 
 function createRadioElement(name, value, checked) {
-    var radioHtml = '<input type="radio" name="' + name + '"' + ' value="' + value + '"';
+    var radioHtml = '<input type="radio" class="checkmark" name="' + name + '"' + ' value="' + value + '"';
     if ( checked ) {
         radioHtml += ' checked="checked"';
     }
@@ -15,7 +15,7 @@ function createRadioElement(name, value, checked) {
     var radioFragment = document.createElement('div');
     radioFragment.innerHTML = radioHtml;
 
-    return radioFragment.firstChild;
+    return radioFragment;
 }
 
 function shuffle(array) {
