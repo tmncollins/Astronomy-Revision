@@ -1,7 +1,20 @@
 function newPage(name, num) {
   window.location.href = "quiz.html";
-  sessionStorage.setItem('quiz_num', num)
-  sessionStorage.setItem('quiz_name', name)
+  sessionStorage.setItem('quiz_num', num);
+  sessionStorage.setItem('quiz_name', name);
+}
+
+function createRadioElement(name, value, checked) {
+    var radioHtml = '<input type="radio" name="' + name + '"' + ' value="' + value + '"';
+    if ( checked ) {
+        radioHtml += ' checked="checked"';
+    }
+    radioHtml += '/>';
+
+    var radioFragment = document.createElement('div');
+    radioFragment.innerHTML = radioHtml;
+
+    return radioFragment.firstChild;
 }
 
 function shuffle(array) {
@@ -93,11 +106,8 @@ lines.forEach(function(item, index) {
   else if (type == " rb ") {
     var opt = curr[2].split(";");
     opt.forEach(function(option, ind) {
-      alert(option)
-      var inp = document.createElement("input"); //input element, text
-      inp.setAttribute('type',"radio");
-      inp.setAttribute('name',index.toString(0));
-      inp.setAttribute('value',option);
+      alert(option);
+      var inp = createRadioElement(index.toString(), option, False);
       q.appendChild(inp);  
     });
     
