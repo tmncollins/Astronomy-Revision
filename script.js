@@ -5,15 +5,18 @@ function newPage(name, num) {
 }
 
 function createRadioElement(name, value, checked) {
+    alert("a");
     var radioHtml = '<input type="radio" name="' + name + '"' + ' value="' + value + '"';
     if ( checked ) {
         radioHtml += ' checked="checked"';
     }
     radioHtml += '/>';
 
+    alert("b");
     var radioFragment = document.createElement('div');
     radioFragment.innerHTML = radioHtml;
 
+    alert("c");
     return radioFragment.firstChild;
 }
 
