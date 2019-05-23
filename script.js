@@ -10,7 +10,7 @@ function createRadioElement(name, value, checked) {
     if ( checked ) {
         radioHtml += ' checked="checked"';
     }
-    radioHtml += '/>';
+    radioHtml += '>' + value + "<br>";
 
     alert("b");
     var radioFragment = document.createElement('div');
