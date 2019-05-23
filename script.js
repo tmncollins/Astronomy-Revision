@@ -1,4 +1,5 @@
 function newPage(name, num) {
+  alert("help");
   window.location.href = "quiz.html";
   sessionStorage.setItem('quiz_num', num)
   sessionStorage.setItem('quiz_name', name)
