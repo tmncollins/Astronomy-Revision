@@ -5,18 +5,15 @@ function newPage(name, num) {
 }
 
 function createRadioElement(name, value, checked) {
-    alert("a");
     var radioHtml = '<input type="radio" name="' + name + '"' + ' value="' + value + '"';
     if ( checked ) {
         radioHtml += ' checked="checked"';
     }
     radioHtml += '>' + value + "<br>";
 
-    alert("b");
     var radioFragment = document.createElement('div');
     radioFragment.innerHTML = radioHtml;
 
-    alert("c");
     return radioFragment.firstChild;
 }
 
@@ -111,11 +108,8 @@ lines.forEach(function(item, index) {
     opt.forEach(function(option, ind) {
       alert(option);
       var inp = createRadioElement(index.toString(), option, 0);
-      alert("1");
       q.appendChild(inp);  
-      alert("2");
     });
-      alert("3");
     
     }
   
