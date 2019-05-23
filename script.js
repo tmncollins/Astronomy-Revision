@@ -1,21 +1,21 @@
 function newPage(name, num) {
-  alert("help");
   window.location.href = "quiz.html";
-  sessionStorage.setItem('quiz_num', num)
-  sessionStorage.setItem('quiz_name', name)
+  sessionStorage.setItem('quiz_num', num);
+  sessionStorage.setItem('quiz_name', name);
 }
 
 function createRadioElement(name, value, checked) {
-//    var radioHtml = '<label class="container">value<input type="radio" class="container" name="' + name + '"' + ' value="' + value + '"';
+    var radioHtml = '<input type="radio" class="container" name="' + name + '"' + ' value="' + value + '"';
     if ( checked ) {
         radioHtml += ' checked="checked"';
     }
-//    radioHtml += '><span class="checkmark"></span> + "</label><br>";
+    radioHtml += '>' + value + "<br>";
+    alert(radioHtml);
 
-//    var radioFragment = document.createElement('div');
-//    radioFragment.innerHTML = radioHtml;
+    var radioFragment = document.createElement('div');
+    radioFragment.innerHTML = radioHtml;
 
-//    return radioFragment;
+    return radioFragment;
 }
 
 function shuffle(array) {
