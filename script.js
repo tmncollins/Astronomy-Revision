@@ -10,6 +10,7 @@ function createRadioElement(name, value, checked) {
         radioHtml += ' checked="checked"';
     }
     radioHtml += '>' + value + "<br>";
+    alert(radioHtml);
 
     var radioFragment = document.createElement('div');
     radioFragment.innerHTML = radioHtml;
@@ -106,7 +107,6 @@ lines.forEach(function(item, index) {
   else if (type == " rb ") {
     var opt = curr[2].split(";");
     opt.forEach(function(option, ind) {
-      alert(option);
       var inp = createRadioElement(index.toString(), option, 0);
       q.appendChild(inp);  
     });
