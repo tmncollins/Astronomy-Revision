@@ -1,7 +1,7 @@
 function newPage(name, num) {
   window.location.href = "quiz.html";
-  sessionStorage.setItem('quiz_num', num);
-  sessionStorage.setItem('quiz_name', name);
+  sessionStorage.setItem('quiz_num', num)
+  sessionStorage.setItem('quiz_name', name)
 }
 
 function createRadioElement(name, value, checked) {
