@@ -77,16 +77,17 @@ function makeQuiz(file)  {
   var d = document.createElement("div");
   var f = document.createElement("form");
   
+    f.setAttribute('method',"post");
+  f.setAttribute('action',"action.php");
+
+
+  
 lines.forEach(function(item, index) {
   var curr = item.split("+");
   var text = (index+1).toString(10) + ". " + curr[0];
   var type = curr[1];
   var ans =  curr[-1];
-  
-  var form = document.createElement("form");
-  form.setAttribute('method',"post");
-  form.setAttribute('action',"submit.php");
-  
+    
   var q = document.createElement("div");
   q.className = "div";
   var para = document.createElement("P");                       // Create a <p> node
@@ -118,9 +119,6 @@ lines.forEach(function(item, index) {
 });
   
   
-  f.setAttribute('method',"post");
-  f.setAttribute('action',"submit.php");
-
   
   var i = document.createElement("input"); //input element, text
   i.setAttribute('type',"number");
