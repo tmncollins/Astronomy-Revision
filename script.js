@@ -93,6 +93,7 @@ lines.forEach(function(item, index) {
   else if (type == " rb ") {
     var opt = curr[2].split(";");
     opt.forEach(function(option, ind) {
+      alert(option)
       var inp = document.createElement("input"); //input element, text
       inp.setAttribute('type',"radio");
       inp.setAttribute('name',index.toString(0));
@@ -125,5 +126,5 @@ lines.forEach(function(item, index) {
 //and dont forget to add a submit button
 d.appendChild(f);
 document.getElementsByTagName('body')[0].appendChild(d);  
-//  document.getElementsByTagName('body')[0].appendChild(f);  
+document.getElementsByTagName('body')[0].appendChild(f);  
  }
