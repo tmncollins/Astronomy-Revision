@@ -125,5 +125,5 @@ lines.forEach(function(item, index) {
 //and dont forget to add a submit button
 d.appendChild(f);
 document.getElementsByTagName('body')[0].appendChild(d);  
-  document.getElementsByTagName('body')[0].appendChild(f);  
+//  document.getElementsByTagName('body')[0].appendChild(f);  
  }
