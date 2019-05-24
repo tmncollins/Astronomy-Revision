@@ -89,7 +89,7 @@ function makeQuiz(file)  {
   var d = document.createElement("div");
   var f = document.createElement("form");
   
-    f.setAttribute('method',"post");
+    f.setAttribute('method',"get");
   f.setAttribute('action',"action.php");
 
 
