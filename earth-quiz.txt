@@ -2,3 +2,7 @@ What is the diameter of the Earth in km? + wn + 13000
 What is the Earth's age in billion years (to 1dp)? + ww + 4.5
 The point in the Earth's orbit where it passes closest to the Sun is called + rb + Perihelion; Aphelion; Equinox; Transit + 1
 What features make Earth unique among planets? Tick all that apply. + cb + Life; Nitrogen and Oxygen Rich Atmosphere; CO2 in Atmosphere; Volcanoes; Liquid Water; Polar Ice + 1
+How is the Earth's atmosphere beneficial to humans? Tick all that apply. + cb + It allows us to fly; Blocks harmful UV rays; Provides oxygen to breathe; It causes hurricanes; It destroys ozone; It regulates the planet's temperature; It aborbs ozone; It partially protects from meteroids + 1
+Which of the following statements about the continental and oceanic plates are true? + rb + Oceanic: 60km Basalt, Continental: 6km Granite; Oceanic: 60km Granite, Continental 6km Basalt; Oceanic: 6km Basalt, Continental: 60km Granite; Oceanic: 6km Granite, 60km Basalt + 3
+On average, the Earth is 1 AU from the Sun. How far is that in km? + wn + 150000000
+Which of these statements about the Earth's orbit is true? + rb + July 3rd Aphelion, the Earth is closest to the Sun; July 3rd Perihelion, the Earth is closest to the Sun; Jan 3rd Aphelion, the Earth is closest to the Sun; Jan 3rd Periohelion, the Earth is closest to the Sun + 1
