@@ -1,3 +1,4 @@
 What is the diameter of the Earth in km? + wn + 13000
 What is the Earth's age in billion years (to 1dp)? + ww + 4.5
 The point in the Earth's orbit where it passes closest to the Sun is called + rb + Perihelion; Aphelion; Equinox; Transit + 1
+What features make Earth unique among planets? Tick all that apply. + cb + Life; Nitrogen and Oxygen Rich Atmosphere; CO2 in Atmosphere; Volcanoes; Liquid Water; Polar Ice + 1
