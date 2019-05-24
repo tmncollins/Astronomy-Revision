@@ -17,6 +17,19 @@ function createRadioElement(name, value, checked) {
     return radioFragment;
 }
 
+function createCheckboxElement(name, value, checked) {
+	  if (checked) {
+      var radioHtml = '<label class="checkcontainer">' + value + '<input type="checkbox" checked="checked" name="' + name + '"><span class="checkcheckmark"></span></label>';
+    } else {
+        var radioHtml = '<label class="checkcontainer">' + value + '<input type="checkbox" name="' + name + '"><span class="checkcheckmark"></span></label>';
+    }
+
+    var radioFragment = document.createElement('div');
+    radioFragment.innerHTML = radioHtml;
+
+    return radioFragment;
+}
+
 function shuffle(array) {
     let counter = array.length;
 
@@ -108,6 +121,14 @@ lines.forEach(function(item, index) {
     var opt = curr[2].split(";");
     opt.forEach(function(option, ind) {
       var inp = createRadioElement(index.toString(), option, 0);
+      q.appendChild(inp);  
+    });
+    
+    }
+  else if (type == " cb ") {
+    var opt = curr[2].split(";");
+    opt.forEach(function(option, ind) {
+      var inp = createCheckboxElement(index.toString(), option, 0);
       q.appendChild(inp);  
     });
     
