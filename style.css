@@ -1,4 +1,7 @@
 button.submit {
+  opacity: 0.0;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
+
   background-color: blue; /*  */
   border: none;
   color: white;
@@ -13,6 +16,12 @@ button.submit {
 	-webkit-border-radius: 15px;
 	border-style: solid;
 	border-colour: white;
+}
+
+button.submit:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+
 }
 
 /* The container */
