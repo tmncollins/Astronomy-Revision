@@ -1,0 +1,29 @@
+What is the diameter of the Sun in km? + wn + 1400000
+What is the ratio of Hydrogen to Helium in the Sun? + rb + 50 : 50; 67 : 33; 75 : 25; 90 : 10 + 3 
+Tick all of the statements about the Sun's Core that are correct. + cb + The Random Walk process occurs in the Sun's Core; It contains 20% of the Sun's total volume; It contains 60% of the Sun's total mass; It can be seen as Sunspots; It has a temperature of 15 million K + 3;5
+What is the name for the visible surface of the Sun? + ww + photosphere
+What is the temperature of the Sun's corona in K? + wn + 2000000
+What is the temperature of the surface of the Sun in K? + wn + 5800
+Sunspots are... + rb + cooler than the surrounding surface; hotter than the surrounding surface; the same temperature as the surrounding surface + 1
+Which of these statements about Sunspots is correct? + rb + Darker centre is called the Penumbra, Lighter ring is called the Umbra; Lighter centre is called the Penumbra, Darker ring is called the Umbra; Darker centre is called the Umbra, Lighter ring is called the Penumbra; Lighter centre is called the Umbra, Darker ring is called the Penumbra + 3
+How long does the Sun's Sunspot Cycle last in years? + wn + 11
+What diagrams are used to show the latitudinal spread of sunspots each year? + ww + butterfly
+What is the rotation period of the Sun at the poles in days? + wn + 36
+What is the rotation period of the Sun at the equator in days? wn + 25
+Tick all of the statements about Sunspots that are correct. + cb + The differential rotation of the Sun builds up strong magnetic field lines; Convection twists these lines; Radiation increases the strength of these lines; Strong local fields burst through the photosphere; 2 Sunspots are created and they are oppositely charged; 2 Sunspots are formed. They are both positively charged + 1;2;4;5
+A Sunspot is seen to move through an angle of 31° 12' in 60 hours. Calculate the rotation peiod of the Sun in hours to the nearest whole number. + wn + 692
+Fast Solar Wind travels at 850km/s. How long would it take it to reach the Earth from the Sun to the nearest second? + wn + 176471
+What is the following statement describing? "A steady stream of charged particles flowing from the Sun". + rb + Solar Flare; Prominences; Solar Wind; Coronal Mass Ejections + 3 
+What is the following statement describing? "Huge clouds of Hydrogen gas projected up into the Corona". + rb + Solar Flare; Prominences; Solar Wind; Coronal Mass Ejections + 2 
+What is the following statement describing? "A sudden bright surge of material from the Sun's surface". + rb + Solar Flare; Prominences; Solar Wind; Coronal Mass Ejections + 1
+What is the following statement describing? "Large surges of material that can impact the weather on Earth and take out power grids". + rb + Solar Flare; Prominences; Solar Wind; Coronal Mass Ejections + 4 
+Tick all of the statements about the Proton-Proton Chain that are correct + cb + Proton, Proton -> Deuterium, Positron, Neutrino; Proton, Proton -> Deuterium, Electron, Antineutrino; Deuterium, Deuterium -> Helium 3, Gamma Ray; Deuterium, Proton -> Helium 3, Gamma Ray; Helium 3, Helium 3 -> Helium 4, Proton, Proton; Helium 3, Deuterium -> Helium 4, Proton, Gamma Ray + 1;4;5
+Tick all of the statements about the Random Walk Process that are correct + Occurs in the Convective Zone; Light rays are absorbed and released by molecules over and over; Light rays gain energy in this process; Light rays lose energy in this process; Eventually light rays leave the Sun as visible light; This process takes 1 million years + 2;4;5
+How does indirect projection allow amateur astronomers to safely view the Sun? + The image of the Sun is projected onto a screen, reducing brightness; The image of the Sun is projected onto a screen, increasing brightness; A filter is attached to the telescope, reducing brightness; A filter is attached to the telescope, increasing brightness + 1
+What filter can be added to telescope to allow it to be used to observe the Sun? + ww + h-alpha
+What is the following statement describing? "When the Sun is at this point, the length of day and night are equal" + Solstice; Conjunction; Opposition; Equinox + 4
+The Solar Day is the time it takes for the Sun to return to the Meridian. How long is this in hours? + wn + 24
+The Sidereal Day is shorter than the Solar Day. By how many seconds is it shorter? + wn + 236
+What is the following statement describing? "The length of time it takes for the background stars to return to the Meridian" + Sidereal Day; Star Day; Astronomical Day; Universal Day + 1
+Explain why the Sidereal Day is shorter than the Solar Day + rb + The stars move faster than the Sun, thus it takes 4 extra minutes for the Sun to return to the Meridian; After a rotation of the Earth, the Sun has moved 1° East along the Ecliptic, meaning it takes another 4 minutes for the Sun to return to the Meridian; As the Earth rotates, the Sun also rotates, though slower. It takes 4 minutes for the Sun to rotate back round to the Meridian + 2
+Tick all of the statements about the Equation of Time that are correct. + cb + The Mean Sun is used to keep time; The difference at any time between the real and Mean Suns is called the Equation of Time; The Sun appears to move at varying speeds along the ecliptic; Axial tilt is the only reason for Sun's varying speed; When the Sun moves slow, sundials read fast + 1;2;3;5
