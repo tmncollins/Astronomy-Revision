@@ -16,7 +16,6 @@ function createRadioElement(name, value, checked) {
 
     return radioFragment;
 }
-
 function createCheckboxElement(name, value, checked) {
 	  if (checked) {
       var radioHtml = '<label class="checkcontainer">' + value + '<input type="checkbox" checked="checked" name="' + name + '"><span class="checkcheckmark"></span></label>';
@@ -27,6 +26,13 @@ function createCheckboxElement(name, value, checked) {
     var radioFragment = document.createElement('div');
     radioFragment.innerHTML = radioHtml;
 
+    return radioFragment;
+}
+
+function createImageElement(filename, alttext) {
+    var radioHtml = '<center><img src="' + filename + '" alt="' + alttext + '"></center>';
+    var radioFragment = document.createElement('div');
+    radioFragment.innerHTML = radioHtml;
     return radioFragment;
 }
 
@@ -58,7 +64,7 @@ function getQuizNum() {
 }
 function getQuizFileName(num) {
   var array = ["earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt"];
-  return array[num-1]
+  return array[num-1];
 }
 
 function returnString() {
@@ -140,6 +146,39 @@ lines.forEach(function(item, index) {
     });
     
     }
+else if (type == " img ") {
+	var ImgSrc = curr[2].split(";")[0];
+	var ImgAlt = curr[2].split(";")[1];
+	var img = createImageElement(ImgSrc, ImgAlt);
+	q.append(img);
+	type = curr[3]
+	  if (type == " wn ") {
+	    var inp = document.createElement("input"); //input element, text
+	    inp.setAttribute('type',"number");
+	    q.appendChild(inp);
+	  }
+	  else if (type == " ww ") {
+	    var inp = document.createElement("input"); //input element, text
+	    inp.setAttribute('type',"text");
+	    q.appendChild(inp);
+	  }
+	  else if (type == " rb ") {
+	    var opt = curr[4].split(";");
+	    opt.forEach(function(option, ind) {
+	      var inp = createRadioElement(index.toString(), option, 0);
+	      q.appendChild(inp);  
+	    });
+
+	    }
+	  else if (type == " cb ") {
+	    var opt = curr[4].split(";");
+	    opt.forEach(function(option, ind) {
+	      var inp = createCheckboxElement(index.toString(), option, 0);
+	      q.appendChild(inp);  
+	    });
+
+	    }
+	}
   
   f.appendChild(q);
 //  d.appendChild(q);
