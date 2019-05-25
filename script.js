@@ -52,11 +52,11 @@ alert(text);
 		var line = lines[i].split("+");
 		var answer = line[-1];
 		var type = line[1];
-		if (type == "ww") {
+		if (type.trim() == "ww") {
 			if (answer.trim() in text[counter]) correct += 1;
 			else alert(answer.trim() + text[counter]);
 			counter += 1;
-		} else if (type == "wn") {
+		} else if (type.trim() == "wn") {
 			if (answer.trim() in text[counter]) correct += 1;
 			else alert(answer.trim() + text[counter]);
 			counter += 1
