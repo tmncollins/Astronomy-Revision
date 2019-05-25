@@ -29,6 +29,12 @@ function createCheckboxElement(name, value, checked) {
     return radioFragment;
 }
 
+function markQuiz() {
+	var form = document.getElementById("quiz");
+	alert(form);
+	
+}
+
 function createImageElement(filename, alttext) {
     var radioHtml = '<center><img src="' + filename + '" class="image" alt="' + alttext + '"></center>';
     var radioFragment = document.createElement('div');
@@ -101,6 +107,7 @@ function makeQuiz(file)  {
   
   var d = document.createElement("div");
   var f = document.createElement("form");
+  f.setAttribute("id", "quiz")
   
 //    f.setAttribute('method',"post");
 //  f.setAttribute('action',"action.php");
