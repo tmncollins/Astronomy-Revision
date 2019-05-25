@@ -52,6 +52,7 @@ alert(text);
 		var line = lines[i].split("+");
 		var answer = line[-1];
 		var type = line[1];
+		alert(type+answer);
 		if (type.trim() == "ww") {
 			if (answer.trim() in text[counter]) correct += 1;
 			else alert(answer.trim() + text[counter]);
