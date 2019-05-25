@@ -47,6 +47,7 @@ alert(text);
 	var correct = 0;
 	var i;
 	var lines = sessionStorage.getItem('quiz_data');
+	lines = lines.split("$");
 	alert(lines);
 	for (i = 0; i < lines.length; i++) {
 		var line = lines[i].split("+");
@@ -138,7 +139,7 @@ function makeQuiz(file)  {
   lines.pop();
   lines = shuffle(lines);
 	
-  sessionStorage.setItem('quiz_data', lines);
+  sessionStorage.setItem('quiz_data', lines.join("$"));
 	
 
   
