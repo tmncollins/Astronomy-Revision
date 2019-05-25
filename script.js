@@ -47,6 +47,7 @@ alert(text);
 	var correct = 0;
 	var i;
 	var lines = sessionStorage.getItem('quiz_data');
+	alert(lines);
 	for (i = 0; i < lines.length; i++) {
 		var line = lines[i].split("+");
 		var answer = line[-1];
