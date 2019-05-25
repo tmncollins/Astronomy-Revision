@@ -30,8 +30,13 @@ function createCheckboxElement(name, value, checked) {
 }
 
 function markQuiz() {
-	var form = document.getElementById("quiz").innerHTML;
-	alert(form);
+  var x = document.getElementById("quiz");
+  var text = "";
+  var i;
+  for (i = 0; i < x.length ;i++) {
+    text += x.elements[i].value + "<br>";
+  }
+alert(text);
 	
 }
 
