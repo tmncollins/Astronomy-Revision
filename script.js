@@ -31,16 +31,16 @@ function createCheckboxElement(name, value, checked) {
 
 function markQuiz() {
   var x = document.getElementById("quiz");
-  var text = [];
+  var text = [x.length];
   var i;
   for (i = 0; i < x.length ;i++) {
 	  var val = x.elements[i].value;
 	  if (val == "on") {
-		var ans = [x.elements[i].checked];
+		var ans = x.elements[i].checked;
 	  } else {
 	  	var ans = val;
 	  }
-	  text.append(ans);
+	  text[i] = ans;
   }
 alert(text);
 	
