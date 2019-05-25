@@ -58,7 +58,7 @@ function getQuizNum() {
 }
 function getQuizFileName(num) {
   var array = ["earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt"];
-  return array[num]
+  return array[num-1]
 }
 
 function returnString() {
