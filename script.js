@@ -43,6 +43,23 @@ function markQuiz() {
 	  text[i] = ans;
   }
 alert(text);
+  	var counter = 0;
+	var correct = 0;
+	var i;
+	var lines = sessionStorage.getItem('quiz_data');
+	for (i = 0; i < lines.length; i++) {
+		var line = lines[i].split("+");
+		var answer = line[-1];
+		var type = line[1];
+		if (type == "ww") {
+			if (answer.trim() in text[counter]) correct += 1;
+			counter += 1;
+		} else if (type == "wn") {
+			if (answer.trim() in text[counter]) correct += 1;
+			counter += 1
+		}
+	}
+	alert(correct);
 	
 }
 
@@ -115,6 +132,10 @@ function makeQuiz(file)  {
   
   lines.pop();
   lines = shuffle(lines);
+	
+  sessionStorage.setItem('quiz_data', lines);
+	
+
   
   var d = document.createElement("div");
   var f = document.createElement("form");
