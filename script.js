@@ -53,6 +53,13 @@ function shuffle(array) {
 function getQuizName() {
   return sessionStorage.getItem('quiz_name');
 }
+function getQuizNum() {
+  return sessionStorage.getItem('quiz_num');
+}
+function getQuizFileName(num) {
+  var array = ["earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt"];
+  return array[num]
+}
 
 function returnString() {
   return "Hi!"; 
