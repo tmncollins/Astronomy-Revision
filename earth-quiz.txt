@@ -28,5 +28,5 @@ What colour aurorae do Nitrogen molecules cause? + ww + red
 What is the rotation period of the Earth is minutes? + wn + 1436
 How long does it take the Earth to rotate through 1 degree in minutes? + wn + 4
 In the 3rd Century BC, who calculated the Earth's circumference? + ww + eratosthenes
-What shape is the Earth? + Flat; Sphere; Pear-shaped; Oblate Spheroid + 4
-How can we prove that the Earth is round? Tick all that apply + Ships disappear over the horizon; The Earth can be seen to curve from high altitudes; At noon, shadowsticks at different latitudes cast different length shadows; Satellites orbit the Earth; The curvature of the Earth can be seen during a Lunar Eclipse + 1;2;3;4;5
+What shape is the Earth? + rb + Flat; Sphere; Pear-shaped; Oblate Spheroid + 4
+How can we prove that the Earth is round? Tick all that apply + cb + Ships disappear over the horizon; The Earth can be seen to curve from high altitudes; At noon, shadowsticks at different latitudes cast different length shadows; Satellites orbit the Earth; The curvature of the Earth can be seen during a Lunar Eclipse + 1;2;3;4;5
