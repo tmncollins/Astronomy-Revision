@@ -92,7 +92,7 @@ button.submit:hover {
   transform: rotate(45deg);
 }
 
-image.image {
+.image {
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-style: solid;
