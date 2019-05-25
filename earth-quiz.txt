@@ -1,8 +1,32 @@
 What is the diameter of the Earth in km? + wn + 13000
 What is the Earth's age in billion years (to 1dp)? + ww + 4.5
 The point in the Earth's orbit where it passes closest to the Sun is called + rb + Perihelion; Aphelion; Equinox; Transit + 1
-What features make Earth unique among planets? Tick all that apply. + cb + Life; Nitrogen and Oxygen Rich Atmosphere; CO2 in Atmosphere; Volcanoes; Liquid Water; Polar Ice + 1
-How is the Earth's atmosphere beneficial to humans? Tick all that apply. + cb + It allows us to fly; Blocks harmful UV rays; Provides oxygen to breathe; It causes hurricanes; It destroys ozone; It regulates the planet's temperature; It aborbs ozone; It partially protects from meteroids + 1
+What features make Earth unique among planets? Tick all that apply. + cb + Life; Nitrogen and Oxygen Rich Atmosphere; CO2 in Atmosphere; Volcanoes; Liquid Water; Polar Ice + 1;2;5
+How is the Earth's atmosphere beneficial to humans? Tick all that apply. + cb + It allows us to fly; Blocks harmful UV rays; Provides oxygen to breathe; It causes hurricanes; It destroys ozone; It regulates the planet's temperature; It aborbs ozone; It partially protects from meteroids + 2;3;6;8
 Which of the following statements about the continental and oceanic plates are true? + rb + Oceanic: 60km Basalt, Continental: 6km Granite; Oceanic: 60km Granite, Continental 6km Basalt; Oceanic: 6km Basalt, Continental: 60km Granite; Oceanic: 6km Granite, 60km Basalt + 3
 On average, the Earth is 1 AU from the Sun. How far is that in km? + wn + 150000000
-Which of these statements about the Earth's orbit is true? + rb + July 3rd Aphelion, the Earth is closest to the Sun; July 3rd Perihelion, the Earth is closest to the Sun; Jan 3rd Aphelion, the Earth is closest to the Sun; Jan 3rd Periohelion, the Earth is closest to the Sun + 1
+Which of these statements about the Earth's orbit is true? + rb + July 3rd Aphelion, the Earth is closest to the Sun; July 3rd Perihelion, the Earth is closest to the Sun; Jan 3rd Aphelion, the Earth is closest to the Sun; Jan 3rd Perihelion, the Earth is closest to the Sun + 2
+The Polar axis is inclined at what angle in degrees to the Ecliptic? + ww + 23.5
+Tick all of the statements that are correct + cb + March 21st Solstice; June 21st Vernal Equinox; March 21st Vernal Equinox; September 23rd Autumnal Equinox; December 22nd Equinox; December 22nd Solstice + 5
+The 1st Point of Aires is also known as the + rb + Vernal Equinox; Summer Solstice; Autumnal Equinox; Winter Solstice + 1
+When viewed from the North Pole, what direction does the Earth spin? + rb + Clockwise; Anticlockwise + 2
+Tick all of the statements about the Earth that are correct + cb + The Mantle is made of molten rock and silicates. It is 3km thick; The Mantle is made of solid bedrock. It is 3000km thick; The Outer Core is made of molten copper. It is 1200km thick; The Outer Core is made of molten nickel and iron. It is 1200km thick; The Inner Core is made of solid nickel and iron; The Inner Core is made of molten nickel and iron + 4;5
+What shape is the Earth's orbit? + rb + Circle; Spiral; Ellipse + 3
+Why does the sky appear blue? + rb + It reflects the blue of the oceans; Blue light is scattered by gas particles; Water vapour in the sky is blue + 2
+Why is light pollution a problem for astronomers? Tick all that apply + cb + Objects in the sky are drowned out by ambient light; Clouds get in the way on objects in the sky; Faint objects are more difficult to see + 1;3
+What are the main causes of light pollution? Tick all that apply + cb + Streetlights; Floodlights; Torches; Office and House Lights; Candles + 1;2;4
+What wavelengths can be viewed from the Earth's surface? Tick all that apply + cb + X-Rays; UV; Visible Light; IR; Microwaves; Medium Radio Waves; Long Radio Waves + 3;6
+What wavelengths are absorbed by Nitrogen, Oxygen and Ozone in the air? Tick all that apply + cb + X-Rays; UV; Visible Light; IR; Microwaves; Medium Radio Waves; Long Radio Waves + 1;2
+What wavelengths are absorbed by Water Vapour and CO2 in the air? Tick all that apply + cb + X-Rays; UV; Visible Light; IR; Microwaves; Medium Radio Waves; Long Radio Waves + 4
+What wavelengths are reflected by the Earth's ionosphere? Tick all that apply + cb + X-Rays; UV; Visible Light; IR; Microwaves; Medium Radio Waves; Long Radio Waves + 7
+IR Telescopes are placed in + rb + Mountains; Hot Air Balloons; Space + 2
+X-Ray Telescopes are placed in + rb + Mountains; Hot Air Balloons; Space + 3
+Tick all of the statements about the Van Allen Belts that are correct + cb + They are doughnut shaped; They are spiral shaped; There are 2 of them; There are 3 of them; They are made from high energy particles; They are held in place by gravity; They are held in place by the Earth's magnetic field + 1;3;5;7
+What protects the Earth from the Sun's radiation and Solar Wind? + rb + Ozone; Moon; Van Allen Belts + 3
+After periods of increased Solar activity, what occurs at the Earth's poles? + ww + aurorae
+What colour aurorae do Nitrogen molecules cause? + ww + red
+What is the rotation period of the Earth is minutes? + wn + 1436
+How long does it take the Earth to rotate through 1 degree in minutes? + wn + 4
+In the 3rd Century BC, who calculated the Earth's circumference? + ww + eratosthenes
+What shape is the Earth? + Flat; Sphere; Pear-shaped; Oblate Spheroid + 4
+How can we prove that the Earth is round? Tick all that apply + Ships disappear over the horizon; The Earth can be seen to curve from high altitudes; At noon, shadowsticks at different latitudes cast different length shadows; Satellites orbit the Earth; The curvature of the Earth can be seen during a Lunar Eclipse + 1;2;3;4;5
