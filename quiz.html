@@ -8,7 +8,7 @@
   <br>
   <script>
   document.getElementById("title").innerHTML = getQuizName();
-  makeQuiz("earth-quiz.txt");
+  makeQuiz(getQuizFileName(getQuizNum()));
   </script>
   <br>
   <center><button type="button" class="submit" action="submit()">SUBMIT</button></center>
