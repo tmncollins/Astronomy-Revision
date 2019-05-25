@@ -53,9 +53,11 @@ alert(text);
 		var type = line[1];
 		if (type == "ww") {
 			if (answer.trim() in text[counter]) correct += 1;
+			else alert(answer.trim() + text[counter]);
 			counter += 1;
 		} else if (type == "wn") {
 			if (answer.trim() in text[counter]) correct += 1;
+			else alert(answer.trim() + text[counter]);
 			counter += 1
 		}
 	}
