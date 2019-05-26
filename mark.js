@@ -25,7 +25,7 @@ alert(text);
 		var type = line[1];
 		
 		if (type == " ww ") {
-			if (text[counter].toLower().indexOf(answer.trim()) > -1) correct += 1;
+			if (text[counter].toLowerCase().indexOf(answer.trim()) > -1) correct += 1;
 			counter += 1;
 		} else if (type == " wn ") {
 			if (answer.trim() == text[counter]) correct += 1;
