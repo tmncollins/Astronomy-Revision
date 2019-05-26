@@ -47,6 +47,7 @@ alert(text);
 			var corr = true;
 			var a = answer.split(";");
 			for (var w = 0; w < a.length; w++) a[w] = parseInt(a[w]);
+			alert(a);
 			for (j = 0; j < iter; j++) {
 				var c = j+1;
 				var d = a.indexOf(c) > -1;
