@@ -230,6 +230,28 @@ button.link:hover {
 				border-style: solid;
 				border-colour: white;
 			}
+			div.correct { 
+    				margin: 20px;
+				color: #FFFFFF;
+				font-size: 20pt;
+				padding: 10px 10px;
+				background-color: green;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-style: solid;
+				border-colour: white;
+			}
+			div.wrong { 
+    				margin: 20px;
+				color: #FFFFFF;
+				font-size: 20pt;
+				padding: 10px 10px;
+				background-color: red;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-style: solid;
+				border-colour: white;
+			}
 
 a:hover {
 	font-size: 25pt;
