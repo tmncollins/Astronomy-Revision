@@ -65,11 +65,11 @@ alert(text);
 			var options = line[2].split(";");
 			var corr = true;
 			for (j = 0; j < options.length; j++) {
-				if (text[counter] == true and (j+1).toString(10) != answer.trim()) {
+				if (text[counter] and (j+1).toString(10) !== answer.trim()) {
 					corr = false;
 					break;
 				 }
-				if (text[counter] == false and (j+1).toString(10) == answer.trim()) {
+				if ((not text[counter]) and (j+1).toString(10) == answer.trim()) {
 					corr = false;
 					break;
 				 }
