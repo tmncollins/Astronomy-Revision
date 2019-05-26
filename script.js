@@ -120,6 +120,7 @@ lines.forEach(function(item, index) {
     
   var q = document.createElement("div");
   q.className = "div";
+  q.setAttribute('id', index.toString(10))
   var para = document.createElement("P");                       // Create a <p> node
   var t = document.createTextNode(text);      // Create a text node
   para.appendChild(t);
