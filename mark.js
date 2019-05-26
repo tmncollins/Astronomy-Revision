@@ -51,6 +51,7 @@ alert(text);
 			for (j = 0; j < iter; j++) {
 				var c = j+1;
 				var d = a.indexOf(c) > -1;
+				alert(a+c+d+text[counter]);
 				if (c && !text[counter]) corr = false;
 				if (!c && text[counter]) corr = false;
 				counter += 1;
