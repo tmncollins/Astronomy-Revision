@@ -30,7 +30,15 @@ alert(text);
 			counter += 1
 		} else if (type == " rb ") {
 			// TODO
-			counter += line[2].split(";").length;
+			var iter = line[2].split(";").length;
+			var j;
+			var corr = false;
+			for (j = 0; j < iter; j++) {
+				var c = j+1;
+				if (text[counter] && c.toString(10) == answer) corr = true;
+				counter += 1;
+			}
+			if (corr) correct += 1;
 		} else if (type == " cb ") {
 			counter += line[2].split(";").length;
 		}
