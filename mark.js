@@ -52,11 +52,10 @@ alert(text);
 				var c = j+1;
 				var d = a.indexOf(c) > -1;
 				alert(a+c+d+!text[counter]);
-				if (c && !text[counter]) {
+				if (d && !text[counter]) {
 					corr = false;
-					alert(c+text[counter]);
 				}
-				if (!c && text[counter]) corr = false;
+				if (!d && text[counter]) corr = false;
 				counter += 1;
 			}
 			if (corr) correct += 1;
