@@ -53,16 +53,17 @@ alert(text);
 		var line = lines[i].split("+");
 		var answer = line[line.length -1];
 		var type = line[1];
-		alert(line);
-		alert(type+answer);
 		if (type == " ww ") {
 			if (answer.trim() == text[counter]) correct += 1;
-			else alert(answer.trim() + text[counter]);
 			counter += 1;
 		} else if (type == " wn ") {
 			if (answer.trim() == text[counter]) correct += 1;
-			else alert(answer.trim() + text[counter]);
 			counter += 1
+		} else if (type == " rb ") {
+			// TODO
+			counter += line[2].split(";").length;
+		} else if (type == " cb ") {
+			counter += line[2].split(";").length;
 		}
 	}
 	alert(correct);
