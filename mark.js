@@ -35,7 +35,7 @@ alert(text);
 			var corr = false;
 			for (j = 0; j < iter; j++) {
 				var c = j+1;
-				if (text[counter] && c == answer.parseInt()) corr = true;
+				if (text[counter] && c == parseInt(answer)) corr = true;
 				counter += 1;
 			}
 			if (corr) correct += 1;
