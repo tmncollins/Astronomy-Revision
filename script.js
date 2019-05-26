@@ -51,15 +51,15 @@ alert(text);
 	alert(lines);
 	for (i = 0; i < lines.length; i++) {
 		var line = lines[i].split("+");
-		var answer = line[-1];
+		var answer = line[line.length -1];
 		var type = line[1];
 		alert(line);
 		alert(type+answer);
-		if (type.trim() == "ww") {
+		if (type == " ww ") {
 			if (answer.trim() == text[counter]) correct += 1;
 			else alert(answer.trim() + text[counter]);
 			counter += 1;
-		} else if (type.trim() == "wn") {
+		} else if (type == " wn ") {
 			if (answer.trim() == text[counter]) correct += 1;
 			else alert(answer.trim() + text[counter]);
 			counter += 1
