@@ -50,6 +50,8 @@ alert(text);
 			q.setAttribute('class', "correct");
 		}
 		else {
+			var q = document.getElementById(i.toString(10));
+			q.setAttribute('class', "wrong");
 		}
 			
 		lastC = correct;
