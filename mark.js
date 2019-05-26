@@ -17,7 +17,6 @@ alert(text);
 	var i;
 	var lines = sessionStorage.getItem('quiz_data');
 	lines = lines.split("$");
-	alert(lines);
 	var lastC = 0;
 	for (i = 0; i < lines.length; i++) {
 		var line = lines[i].split("+");
@@ -47,11 +46,9 @@ alert(text);
 			var corr = true;
 			var a = answer.split(";");
 			for (var w = 0; w < a.length; w++) a[w] = parseInt(a[w]);
-			alert(a);
 			for (j = 0; j < iter; j++) {
 				var c = j+1;
 				var d = a.indexOf(c) > -1;
-				alert(a+c+d+!text[counter]);
 				if (d && !text[counter]) {
 					corr = false;
 				}
