@@ -56,11 +56,11 @@ alert(text);
 		alert(line);
 		alert(type+answer);
 		if (type.trim() == "ww") {
-			if (answer.trim() in text[counter]) correct += 1;
+			if (answer.trim() == text[counter]) correct += 1;
 			else alert(answer.trim() + text[counter]);
 			counter += 1;
 		} else if (type.trim() == "wn") {
-			if (answer.trim() in text[counter]) correct += 1;
+			if (answer.trim() == text[counter]) correct += 1;
 			else alert(answer.trim() + text[counter]);
 			counter += 1
 		}
