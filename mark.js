@@ -18,10 +18,12 @@ alert(text);
 	var lines = sessionStorage.getItem('quiz_data');
 	lines = lines.split("$");
 	alert(lines);
+	var lastC = 0;
 	for (i = 0; i < lines.length; i++) {
 		var line = lines[i].split("+");
 		var answer = line[line.length -1];
 		var type = line[1];
+		
 		if (type == " ww ") {
 			if (answer.trim() == text[counter]) correct += 1;
 			counter += 1;
@@ -42,6 +44,15 @@ alert(text);
 		} else if (type == " cb ") {
 			counter += line[2].split(";").length;
 		}
+		
+		if (correct > lastC) {
+			var q = document.getElementById(i.toString(10));
+			q.setAttribute('class', "correct");
+		}
+		else {
+		}
+			
+		lastC = correct;
 	}
 	alert(correct);
 	
