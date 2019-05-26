@@ -61,8 +61,24 @@ alert(text);
 			counter += 1
 		} else if (type == " rb ") {
 			// TODO
-			counter += line[2].split(";").length;
+			var j;
+			var options = line[2].split(";");
+			var corr = true;
+			for (j = 0; j < options.length; j++) {
+				if (text[counter] == true and (j+1).toString(10) != answer.trim()) {
+					corr = false;
+					break;
+				 }
+				if (text[counter] == false and (j+1).toString(10) == answer.trim()) {
+					corr = false;
+					break;
+				 }
+				counter += 1;
+			}
+			counter += ;
+			
 		} else if (type == " cb ") {
+			answer = answer.split(";")
 			counter += line[2].split(";").length;
 		}
 	}
