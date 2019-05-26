@@ -42,7 +42,18 @@ alert(text);
 			}
 			if (corr) correct += 1;
 		} else if (type == " cb ") {
-			counter += line[2].split(";").length;
+			var iter = line[2].split(";").length;
+			var j;
+			var corr = true;
+			var a = answer.split(";");
+			for (var w = 0; w < a.length; w++) a[w] = parseInt(a[w]);
+			for (j = 0; j < iter; j++) {
+				var c = j+1;
+				if (text[counter] && (!(c in a))) corr = false;
+				if (!(text[counter]) && ((c in a))) corr = false;
+				counter += 1;
+			}
+			if (corr) correct += 1;
 		}
 		
 		if (correct > lastC) {
