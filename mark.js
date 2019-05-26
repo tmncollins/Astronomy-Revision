@@ -36,6 +36,7 @@ alert(text);
 			for (j = 0; j < iter; j++) {
 				var c = j+1;
 				if (text[counter] && c.toString(10) == answer) corr = true;
+				else alert(text[counter] + c.toString(10) + answer)
 				counter += 1;
 			}
 			if (corr) correct += 1;
