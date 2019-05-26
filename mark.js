@@ -49,8 +49,9 @@ alert(text);
 			for (var w = 0; w < a.length; w++) a[w] = parseInt(a[w]);
 			for (j = 0; j < iter; j++) {
 				var c = j+1;
-				if (text[counter] && (!(c in a))) corr = false;
-				if (!(text[counter]) && ((c in a))) corr = false;
+				var d = a.indexOf(c) > -1;
+				if (c && !text[counter]) corr = false;
+				if (!c && text[counter]) corr = false;
 				counter += 1;
 			}
 			if (corr) correct += 1;
