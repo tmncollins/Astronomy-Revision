@@ -30,7 +30,7 @@ function createCheckboxElement(name, value, checked) {
 }
 
 function createImageElement(filename, alttext) {
-    var radioHtml = '<center><img src="' + filename + '" class="image" alt="' + alttext + '"></center>';
+    var radioHtml = '<center><img src="' + filename + '" class="image" alt="' + alttext + '"></center><br>';
     var radioFragment = document.createElement('div');
     radioFragment.innerHTML = radioHtml;
     return radioFragment;
