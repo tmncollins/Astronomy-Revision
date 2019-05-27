@@ -56,6 +56,43 @@ alert(text);
 				counter += 1;
 			}
 			if (corr) correct += 1;
+		} else if (type == " img ") {
+			var type = line[3];
+
+			if (type == " ww ") {
+				if (text[counter].toLowerCase().indexOf(answer.trim()) > -1) correct += 1;
+				counter += 1;
+			} else if (type == " wn ") {
+				if (answer.trim() == text[counter]) correct += 1;
+				counter += 1
+			} else if (type == " rb ") {
+				// TODO
+				var iter = line[4].split(";").length;
+				var j;
+				var corr = false;
+				for (j = 0; j < iter; j++) {
+					var c = j+1;
+					if (text[counter] && c == parseInt(answer)) corr = true;
+					counter += 1;
+				}
+				if (corr) correct += 1;
+			} else if (type == " cb ") {
+				var iter = line[4].split(";").length;
+				var j;
+				var corr = true;
+				var a = answer.split(";");
+				for (var w = 0; w < a.length; w++) a[w] = parseInt(a[w]);
+				for (j = 0; j < iter; j++) {
+					var c = j+1;
+					var d = a.indexOf(c) > -1;
+					if (d && !text[counter]) {
+						corr = false;
+					}
+					if (!d && text[counter]) corr = false;
+					counter += 1;
+				}
+				if (corr) correct += 1;
+			}
 		}
 		
 		if (correct > lastC) {
