@@ -17,7 +17,7 @@ Define libration in latitude. Tick all that apply + cb + The Moon is inclined 6.
 The apparent path of the Moon is inclined at how many degrees to the Ecliptic? + wn + 5
 The declination of the Moon can vary by how many degrees? + ww + 28.5
 How many nodes does the Moon have? + wn + 2
-What does the following statment describe? "The orientation of the Moon's orbit changes with time, so that each time the Moon crosses the Ecliptic it does do a little further back along it". + rb + Libration; Regression of the Moon's nodes; Lunar Eclipse; Transit + 2
+What does the following statement describe? "The orientation of the Moon's orbit changes with time, so that each time the Moon crosses the Ecliptic it does do a little further back along it". + rb + Libration; Regression of the Moon's nodes; Lunar Eclipse; Transit + 2
 How long does it take for the Moon's nodes to return to their original position in years (to 1 d.p.)? + ww + 18.6
 Which side of the Moon has more 'Seas'? + rb + Near side; Far side + 1
 "This is the line that divides the visible part of the Moon from the dark parts. Craters on this line are more obvious". This statement describes the... + ww + terminator
