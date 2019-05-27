@@ -4,9 +4,9 @@ What are Lunar Highlands called? + ww + terrae
 How can we tell that Lunar Seas are younger than the Highlands? + rb + They have fewer craters; They contain water; They have younger fossils; They have KREEP rocks + 1
 What material is the Moon's crust made from? + ww + basalt
 Why does the Moon have no atmosphere? + rb + No good pubs; Gravitational field is too weak; No Magnetic field; Atmosphere is absorbed by rocks + 2
-Which side of the Moon has a thicker crust + rb + Near side; Far side + 1
+Which side of the Moon has a thicker crust + rb + Near side; Far side + 2
 What created the Lunar Seas? + rb + Water; Meteor impacts; Lava oozing from the crust + 3
-What created the Lunar Rilles (channel like depression) + rb + Lava Flow; Water Flow; Lunar Wind; Solar Wind + 1
+What created the Lunar Rilles (channel like depression) + rb + Lava Flow  ; Water Flow; Lunar Wind; Solar Wind + 1
 The young hot Moon rapidly cooled and contracted creating... + rb + Lunar Seas; Maria; Lunar Highlands; Wrinkled Ridges + 4
 How long is the Moon's orbit period in days (to 1 d.p.)? + ww + 27.3
 How long is the Lunar Phase Cycle in days (to 1 d.p.)? + ww + 29.5
