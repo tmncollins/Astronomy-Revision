@@ -4,9 +4,9 @@ The Great Square of Pegasus can be used to find which celestial objects? Tick al
 Describe how the Aurora appears to the naked eye. + rb + A fuzzy dot of light; A short bright streak of colour; Streaming coloured curtains; A long red limb coming from the Sun + 3
 Orion's Belt and the Summer Triangle are examples of an... + ww + asterism
 A student begins an observation on a cold clear moonless night in winter at midnight. Why does the student notice more stars 30 minutes later? + rb + The sky gets darker as the night progresses and the stars come out; In Winter most stars only rise after midnight, so they cannot be seen until later; Eyes adjust to the darker after time, so eyes are more sensitive to light from faint stars + 3
-The above image represents the orbits of the Earth and Venus which letter shows Venus at Inferior Conjunction with Earth? + img +earth-and-mars.png+ rb + A; B; C; D  + 1
+The above image represents the orbits of the Earth and Venus which letter shows Venus at Inferior Conjunction with Earth? + img +mars-and-earth.png+ rb + A; B; C; D  + 1
 Mars is 1.5 AU from the Sun. How far is Earth from Mars when they are at Superior Conjunction in AU (to 1 d.p.)? + ww + 2.5
-Explain why it is best to view Mercury when it appears to be furthest from the Sun? + It would appear against a darker sky and so higher contrast + It would be a full phase and so would be at its brightest; It would be closest to the Earth in its orbit and so would appear larger + 1
+Explain why it is best to view Mercury when it appears to be furthest from the Sun? + rb + It would appear against a darker sky and so higher contrast + It would be a full phase and so would be at its brightest; It would be closest to the Earth in its orbit and so would appear larger + 1
 Many ancient monuments are aligned with the rising and setting Sun. What were these observations used for? Tick all that apply. + cb + Masonry; Harvesting Crops; Religious Ceremonies; Calendar + 2;3;4
 Why are the effects of Precession difficult to observe with the naked eye? + rb + The Earth's orbit is elliptical; Precession happens very slowly; Stars can only be observed at night; Precession can only be observed near the poles + 2
 The change in the Earth's axial tilt is known as... + ww + precession
