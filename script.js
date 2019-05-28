@@ -130,14 +130,21 @@ lines.forEach(function(item, index) {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"number");
     q.appendChild(inp);
-
+		alert("1");
   		var ansdiv = document.createElement("div");
+		alert("2");
 		ansdiv.setAttribute('class', "hide");
-	  	var ansclass = "ans" + index.toString(10)
+		alert("3");
+	  	var ansclass = "ans" + index.toString(10);
+		alert("4");
 		ansdiv.setAttribute('id', ansclass);
+		alert("5");
 	  	var anstext = "<p>" + ans.trim() + "</p>"
+		alert("6");
 		ansdiv.innerHTML = anstext;
+		alert("7");
 		q.appendChild(ansdiv);
+		alert("8");
 }
   else if (type == " ww ") {
     var inp = document.createElement("input"); //input element, text
