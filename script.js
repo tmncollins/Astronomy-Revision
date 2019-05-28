@@ -130,28 +130,25 @@ lines.forEach(function(item, index) {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"number");
     q.appendChild(inp);
-		alert("1");
   		var ansdiv = document.createElement("div");
-		alert("2");
 		ansdiv.setAttribute('class', "hide");
-		alert("3");
 	  	var ansclass = "ans" + index.toString(10);
-		alert("4");
 		ansdiv.setAttribute('id', ansclass);
-		alert("5");
-	  	alert(ans);
-	  	alert(ans.trim());
 	  	var anstext = "<p>" + ans.trim() + "</p>"
-		alert("6");
 		ansdiv.innerHTML = anstext;
-		alert("7");
 		q.appendChild(ansdiv);
-		alert("8");
 }
   else if (type == " ww ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"text");
     q.appendChild(inp);
+  		var ansdiv = document.createElement("div");
+		ansdiv.setAttribute('class', "hide");
+	  	var ansclass = "ans" + index.toString(10);
+		ansdiv.setAttribute('id', ansclass);
+	  	var anstext = "<p>" + ans.trim() + "</p>"
+		ansdiv.innerHTML = anstext;
+		q.appendChild(ansdiv);
 }
   else if (type == " rb ") {
     var opt = curr[2].split(";");
@@ -179,12 +176,26 @@ else if (type == " img ") {
 	    var inp = document.createElement("input"); //input element, text
 	    inp.setAttribute('type',"number");
 	    q.appendChild(inp);
+  		var ansdiv = document.createElement("div");
+		ansdiv.setAttribute('class', "hide");
+	  	var ansclass = "ans" + index.toString(10);
+		ansdiv.setAttribute('id', ansclass);
+	  	var anstext = "<p>" + ans.trim() + "</p>"
+		ansdiv.innerHTML = anstext;
+		q.appendChild(ansdiv);
 		  
 	  }
 	  else if (type == " ww ") {
 	    var inp = document.createElement("input"); //input element, text
 	    inp.setAttribute('type',"text");
 	    q.appendChild(inp);
+  		var ansdiv = document.createElement("div");
+		ansdiv.setAttribute('class', "hide");
+	  	var ansclass = "ans" + index.toString(10);
+		ansdiv.setAttribute('id', ansclass);
+	  	var anstext = "<p>" + ans.trim() + "</p>"
+		ansdiv.innerHTML = anstext;
+		q.appendChild(ansdiv);
 	  }
 	  else if (type == " rb ") {
 	    var opt = curr[4].split(";");
