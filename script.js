@@ -130,12 +130,24 @@ lines.forEach(function(item, index) {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"number");
     q.appendChild(inp);
-  }
+
+  		var ansdiv = document.createElement("div");
+		ansdiv.setAttribute('class', "hide");
+		ansdiv.setAttribute('id', "ans" + index.toString(10));
+		ansdiv.innerHTML = "<p>" + ans.trim() + "</p>";
+		q.appendChild(ansdiv);
+}
   else if (type == " ww ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"text");
     q.appendChild(inp);
-  }
+
+  		var ansdiv = document.createElement("div");
+		ansdiv.setAttribute('class', "hide");
+		ansdiv.setAttribute('id', "ans" + index.toString(10));
+		ansdiv.innerHTML = "<p>" + ans.trim() + "</p>";
+		q.appendChild(ansdiv);
+}
   else if (type == " rb ") {
     var opt = curr[2].split(";");
     opt.forEach(function(option, ind) {
@@ -162,11 +174,22 @@ else if (type == " img ") {
 	    var inp = document.createElement("input"); //input element, text
 	    inp.setAttribute('type',"number");
 	    q.appendChild(inp);
+		  
+		var ansdiv = document.createElement("div");
+		ansdiv.setAttribute('class', "hide");
+		ansdiv.setAttribute('id', "ans" + index.toString(10));
+		ansdiv.innerHTML = "<p>" + ans.trim() + "</p>";
+		q.appendChild(ansdiv);
 	  }
 	  else if (type == " ww ") {
 	    var inp = document.createElement("input"); //input element, text
 	    inp.setAttribute('type',"text");
 	    q.appendChild(inp);
+		var ansdiv = document.createElement("div");
+		ansdiv.setAttribute('class', "hide");
+		ansdiv.setAttribute('id', "ans" + index.toString(10));
+		ansdiv.innerHTML = "<p>" + ans.trim() + "</p>";
+		q.appendChild(ansdiv);
 	  }
 	  else if (type == " rb ") {
 	    var opt = curr[4].split(";");
