@@ -116,7 +116,7 @@ lines.forEach(function(item, index) {
   var curr = item.split("+");
   var text = (index+1).toString(10) + ". " + curr[0];
   var type = curr[1];
-  var ans =  curr[-1];
+  var ans =  curr[curr.length - 1];
     
   var q = document.createElement("div");
   q.className = "div";
