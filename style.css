@@ -1,13 +1,13 @@
 p {
-	colour: white;
+	color: white;
 }
 
 p.correction {
-	colour: green;
+	color: green;
 }
 
 p.score {
-	colour: white;
+	color: white;
 	font-size: 50pt;
         text-align: center;
 }
@@ -17,7 +17,7 @@ div.hide {
 }
 
 div.show {
-	colour: green;
+	color: green;
 	display: inline-block;
 }
 
@@ -38,7 +38,7 @@ button.submit {
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-style: solid;
-	border-colour: white;
+	border-color: white;
 }
 
 button.submit:hover {
@@ -119,7 +119,7 @@ button.submit:hover {
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-style: solid;
-	border-colour: white;
+	border-color: white;
 	width: 50%;
 }
 
@@ -223,6 +223,7 @@ body {
   background-image: url("Stars-fixed.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+	color: white;
 }
 
 button.link {
@@ -250,7 +251,7 @@ button.link:hover {
 				-moz-border-radius: 15px;
 				-webkit-border-radius: 15px;
 				border-style: solid;
-				border-colour: white;
+				border-color: white;
 			}
 			div.correct { 
     				margin: 20px;
@@ -260,7 +261,7 @@ button.link:hover {
 				-moz-border-radius: 15px;
 				-webkit-border-radius: 15px;
 				border-style: solid;
-				border-colour: white;
+				border-color: white;
 			}
 			div.wrong { 
     				margin: 20px;
@@ -270,7 +271,7 @@ button.link:hover {
 				-moz-border-radius: 15px;
 				-webkit-border-radius: 15px;
 				border-style: solid;
-				border-colour: white;
+				border-color: white;
 			}
 
 a:hover {
