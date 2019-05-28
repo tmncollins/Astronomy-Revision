@@ -106,6 +106,14 @@ alert(text);
 			
 		lastC = correct;
 	}
-	alert(correct);
+	
+	var score = document.getElementById("scorediv");
+	score.setAttribute('class', "div");
+	var scorre = document.getElementById("score");
+	scorre.innerHTML = correct.toString(10);
+	
+	document.body.scrollTop = 0;
+  	document.documentElement.scrollTop = 0;
+
 	
 }
