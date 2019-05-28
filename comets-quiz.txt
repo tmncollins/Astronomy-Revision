@@ -1,0 +1,13 @@
+What is the following statement describing? "Balls of rock and ice with highly elliptical orbits". + rb + comets; meteors; centaurs; fireballs+ 1 
+What is the following statement describing? "Celestial debris that burns up in the Earth's atmosphere". + rb + comets; meteors; centaurs; fireballs+ 2 
+A fireball is a meteor with a brightness greater than what? + ww + -3
+Unstable celestial bodies with characteristics of Comets and Meteors are known as... + ww + centaurs
+Which of these statements about Comets are correct? Tick all that apply. + cb + All Comets originate from the Kuiper Belt; Periodic Comets have a time period less than 200 years; Long-period Comets originate from the Oort Cloud + 2;3
+Which of these statements about Comets are correct? Tick all that apply. + cb + As a Comet approaches the Sun its nucleus melts; Gas ions and dust are released, forming a coma; Charged Solar Wind blows the particles away forming 2 tails; The tails always point towards the Sun; The larger dust particles lag behind the comet; Comets contain life in their water +  1;2;3;5
+Which of these statements about Meteoroids are correct? Tick all that apply. + cb + An asteroid is an example of a Meteoroid; A Meteroid is a Meteor that has reached the Earth's surface; Smaller Meteroids originate from the dust tails of Comets + 1;3
+At certain times of the year there is an increase in the number of meteors seen. This is called a Meteor... + ww + shower
+Which of these statements about Meteors are correct? Tick all that apply. + cb + Meteor Streams are made up of dust particles left behind a Comet; When the Earth passes through a Meteor Stream, more Meteors can been seen; A "shooting-rock" is another name for a Meteor; Although dust particles burn out in a line, Meteors appear to diverge from a single point + 1;2;4
+Meteors appear to diverge from the... + ww + radiant
+How close must a celestial body be to the Earth to be classed as a Near Earth Object? Give your answer in AU (to 1 d.p.). + ww + 0.3
+How close must a celestial body be to the Earth to be classed as a Potentially Hazardous Object? Give your answer in AU (to 2 d.p.). + ww + 0.05
+Tick all of the statements aboout PHOs that are correct. + cb + PHOs with 1km or greater diameter can cause global catastrophe; The Richter Scale is used to categorise PHOs; The Torino Scale is used to catagorise PHOs; Examples of past collisions are craters on the Moon and Mars; The Earth has no craters on its surface + 1;3;4
