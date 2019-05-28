@@ -107,10 +107,14 @@ alert(text);
 		lastC = correct;
 	}
 	
+	var percent = correct / lines.length;
+	percent = Math.round(percent);
+	percent = percent.toString(10) + "%";
+	
 	var score = document.getElementById("scorediv");
 	score.setAttribute('class', "div");
 	var scorre = document.getElementById("score");
-	scorre.innerHTML = correct.toString(10);
+	scorre.innerHTML = percent;
 	
 	document.body.scrollTop = 0;
   	document.documentElement.scrollTop = 0;
