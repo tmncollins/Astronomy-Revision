@@ -134,7 +134,7 @@ lines.forEach(function(item, index) {
 		ansdiv.setAttribute('class', "hide");
 	  	var ansclass = "ans" + index.toString(10);
 		ansdiv.setAttribute('id', ansclass);
-	  	var anstext = "<p>" + ans.trim() + "</p>"
+	  	var anstext = '<p class="correction">' + ans.trim() + "</p>"
 		ansdiv.innerHTML = anstext;
 		q.appendChild(ansdiv);
 }
@@ -146,7 +146,7 @@ lines.forEach(function(item, index) {
 		ansdiv.setAttribute('class', "hide");
 	  	var ansclass = "ans" + index.toString(10);
 		ansdiv.setAttribute('id', ansclass);
-	  	var anstext = "<p>" + ans.trim() + "</p>"
+	  	var anstext = '<p class="correction">' + ans.trim() + "</p>"
 		ansdiv.innerHTML = anstext;
 		q.appendChild(ansdiv);
 }
@@ -180,7 +180,7 @@ else if (type == " img ") {
 		ansdiv.setAttribute('class', "hide");
 	  	var ansclass = "ans" + index.toString(10);
 		ansdiv.setAttribute('id', ansclass);
-	  	var anstext = "<p>" + ans.trim() + "</p>"
+	  	var anstext = '<p class="correction">' + ans.trim() + "</p>"
 		ansdiv.innerHTML = anstext;
 		q.appendChild(ansdiv);
 		  
@@ -193,7 +193,7 @@ else if (type == " img ") {
 		ansdiv.setAttribute('class', "hide");
 	  	var ansclass = "ans" + index.toString(10);
 		ansdiv.setAttribute('id', ansclass);
-	  	var anstext = "<p>" + ans.trim() + "</p>"
+	  	var anstext = '<p class="correction">' + ans.trim() + "</p>"
 		ansdiv.innerHTML = anstext;
 		q.appendChild(ansdiv);
 	  }
