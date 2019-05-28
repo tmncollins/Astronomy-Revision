@@ -133,20 +133,16 @@ lines.forEach(function(item, index) {
 
   		var ansdiv = document.createElement("div");
 		ansdiv.setAttribute('class', "hide");
-		ansdiv.setAttribute('id', "ans" + index.toString(10));
-		ansdiv.innerHTML = "<p>" + ans.trim() + "</p>";
+	  	var ansclass = "ans" + index.toString(10)
+		ansdiv.setAttribute('id', ansclass);
+	  	var anstext = "<p>" + ans.trim() + "</p>"
+		ansdiv.innerHTML = anstext;
 		q.appendChild(ansdiv);
 }
   else if (type == " ww ") {
     var inp = document.createElement("input"); //input element, text
     inp.setAttribute('type',"text");
     q.appendChild(inp);
-
-  		var ansdiv = document.createElement("div");
-		ansdiv.setAttribute('class', "hide");
-		ansdiv.setAttribute('id', "ans" + index.toString(10));
-		ansdiv.innerHTML = "<p>" + ans.trim() + "</p>";
-		q.appendChild(ansdiv);
 }
   else if (type == " rb ") {
     var opt = curr[2].split(";");
@@ -175,21 +171,11 @@ else if (type == " img ") {
 	    inp.setAttribute('type',"number");
 	    q.appendChild(inp);
 		  
-		var ansdiv = document.createElement("div");
-		ansdiv.setAttribute('class', "hide");
-		ansdiv.setAttribute('id', "ans" + index.toString(10));
-		ansdiv.innerHTML = "<p>" + ans.trim() + "</p>";
-		q.appendChild(ansdiv);
 	  }
 	  else if (type == " ww ") {
 	    var inp = document.createElement("input"); //input element, text
 	    inp.setAttribute('type',"text");
 	    q.appendChild(inp);
-		var ansdiv = document.createElement("div");
-		ansdiv.setAttribute('class', "hide");
-		ansdiv.setAttribute('id', "ans" + index.toString(10));
-		ansdiv.innerHTML = "<p>" + ans.trim() + "</p>";
-		q.appendChild(ansdiv);
 	  }
 	  else if (type == " rb ") {
 	    var opt = curr[4].split(";");
