@@ -57,7 +57,7 @@ alert(text);
 			}
 			if (corr) correct += 1;
 		} else if (type == " img ") {
-			var type = line[3];
+			type = line[3];
 
 			if (type == " ww ") {
 				if (text[counter].toLowerCase().indexOf(answer.trim()) > -1) correct += 1;
