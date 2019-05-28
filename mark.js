@@ -108,6 +108,7 @@ alert(text);
 	}
 	
 	var percent = correct / lines.length;
+	percent = percent * 100;
 	percent = Math.round(percent);
 	percent = percent.toString(10) + "%";
 	
