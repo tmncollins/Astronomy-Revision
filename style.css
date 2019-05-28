@@ -1,3 +1,7 @@
+div.hide {
+	display: none;
+}
+
 button.submit {
   opacity: 1.0;
   filter: alpha(opacity=100); /* For IE8 and earlier */
