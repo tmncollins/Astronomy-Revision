@@ -139,6 +139,8 @@ lines.forEach(function(item, index) {
 		alert("4");
 		ansdiv.setAttribute('id', ansclass);
 		alert("5");
+	  	alert(ans);
+	  	alert(ans.trim());
 	  	var anstext = "<p>" + ans.trim() + "</p>"
 		alert("6");
 		ansdiv.innerHTML = anstext;
