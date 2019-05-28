@@ -98,15 +98,17 @@ alert(text);
 		if (correct > lastC) {
 			var q = document.getElementById(i.toString(10));
 			q.setAttribute('class', "correct");
+			if (type == " ww " || type == "wn") {
+				var p = document.getElementById("ans" + i.toString(10));
+				p.setAttribute('class', "hide");
+			}
 		}
 		else {
 			var q = document.getElementById(i.toString(10));
 			q.setAttribute('class', "wrong");
 			if (type == " ww " || type == "wn") {
-				var p = document.createElement("p");
-				p.setAttribute('class', "correction");
-				p.innerHTML = answer.trim();
-				q.appendChild(p);
+				var p = document.getElementById("ans" + i.toString(10));
+				p.setAttribute('class', "show");
 			}
 		}
 			
