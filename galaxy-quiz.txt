@@ -1,6 +1,6 @@
 What type of galaxy is the Milky Way? + rb + Elliptical; Spiral Barred; Spiral; Irregular + 2
 Describe the appearance of the Milky Way from Earth. + rb + A fuzzy streak of gas; A straight white line; A fuzzy spiral of gas; A thick bar of grey gas + 1
-Where is our Solar System located in the Milky Way? + rb + At the centre; In the central bar; In the left outer lobe; In one of the spiral arms; Outside the galaxy + 3
+Where is our Solar System located in the Milky Way? + rb + At the centre; In the central bar; In the left outer lobe; In one of the spiral arms; Outside the galaxy + 4
 Explain how the rotation period of the galaxy was determined. + cb + Tracer stars were used in globular clusters; Tracer stars were used at the centre of the galaxy; Radio waves were used; Visible light was used + 1;3
 The Galactic Centre of the Milky Way is in which constellation? + rb + Aquarius; Sagittarius; Libra; Pisces + 2
 The centre of the galaxy is a large bulge. What do astronomers believe there is there? + rb + An ancient civilisation; Another smaller galaxy; A super-massive star; A super-massive Black Hole + 4
