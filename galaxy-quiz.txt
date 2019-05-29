@@ -1,12 +1,12 @@
 What type of galaxy is the Milky Way? + rb + Elliptical; Spiral Barred; Spiral; Irregular + 2
 Describe the appearance of the Milky Way from Earth. + rb + A fuzzy streak of gas; A straight white line; A fuzzy spiral of gas; A thick bar of grey gas + 1
 Where is our Solar System located in the Milky Way? + rb + At the centre; In the central bar; In the left outer lobe; In one of the spiral arms; Outside the galaxy + 3
-Explain how the rotation period of the galaxy was determined. + Tracer stars were used in globular clusters; Tracer stars were used at the centre of the galaxy; Radio waves were used; Visible light was used + 1;3
+Explain how the rotation period of the galaxy was determined. + rb + Tracer stars were used in globular clusters; Tracer stars were used at the centre of the galaxy; Radio waves were used; Visible light was used + 1;3
 The Galactic Centre of the Milky Way is in which constellation? + rb + Aquarius; Sagittarius; Libra; Pisces + 2
-The centre of the galaxy is a large bulge. What do astronomers believe there is there? + An ancient civilisation; Another smaller galaxy; A super-massive star; A super-massive Black Hole + 4
+The centre of the galaxy is a large bulge. What do astronomers believe there is there? + rb + An ancient civilisation; Another smaller galaxy; A super-massive star; A super-massive Black Hole + 4
 Globular clusters are found around the Milky Way in a... + ww + halo
 What is the name of this diagram? + img +galaxies-diagram.png+ rb + Hubble's Tuning Fork Diagram; Hubble's River Diagram; Kepler's Tree Diagram; Kepler's River Diagram + 1
-What is the following statement describing? "Galaxies that emit large quantities of radiation such as radio-waves and x-rays". + Radio Galaxies; Loud Galaxies; Active Galaxies; Seyfert Galaxies + 3
+What is the following statement describing? "Galaxies that emit large quantities of radiation such as radio-waves and x-rays". + rb + Radio Galaxies; Loud Galaxies; Active Galaxies; Seyfert Galaxies + 3
 Active Galactic Nuclei are found in galaxies at the... + ww + centre
 Why do Active Galactic Nuclei emit electromagnetic waves? + rb + They are dense with stars, emitting lots of light; An accreting disc of matter surrounds a supermassive black hole. As the matter falls in, radiaton is released; Two super-massive white stars orbit each other at the centre. As gas is transferred between them, radiation is released; The swirling cloud of gas at the centre is very hot and so releases radiation + 2
 What's the difference between a Quasar and a Blazar? + rb + Blazers radiate gamma rays; Blazers are a tenth of the size as Quasars; Quasars emit ultra-low frequency radio waves; There is no difference + 1
