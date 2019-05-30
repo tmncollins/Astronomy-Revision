@@ -2,6 +2,7 @@
   <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
   <script src="script.js"></script>
   <script src="mark.js"></script>
+  <title id="ti">Quiz</title>
 </head>
 <body>
   <br>
@@ -11,6 +12,7 @@
     <centre><p class="score" id="score">0</p></centre></div>
   <br>
   <script>
+  document.getElementById("ti").innerHTML = getQuizName();
   document.getElementById("title").innerHTML = getQuizName();
   makeQuiz(getQuizFileName(getQuizNum()));
   </script>
