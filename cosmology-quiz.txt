@@ -2,7 +2,7 @@ The Hubble Constant is roughly 70km/s/Mpc. An galaxy is observed to be moving aw
 Tick all of the statements about redshift that are correct. + cb + Light from objects moving towards us is redshifted; Light from objects moving away from us is blueshifted; The universe is expanding; Most light we receive is reshifted; Most light we receive is blueshifted; The further away galaxies are, the faster they are moving; The further away galaxies are the more redshifted their light is; The further away galaxies are the more blueshifted their light is + 3;4;6;7 
 The furthest objects seen are... + ww + quasar
 How old is the universe in billion years (to 1 d.p.)? + ww + 13.5
-A spectral line with a wavelength of 412.6nm in a lab is observed to have a wavelength of 495.1nm in the spectrum of a distant galaxy. How fast is the galaxy moving away from us in km/s? + wn + 60000
+A spectral line with a wavelength of 412.6nm in a lab is observed to have a wavelength of 495.1nm in the spectrum of a distant galaxy. How fast is the galaxy moving away from us in km/s (to 1 s.f.) + wn + 60000
 What is the average temperature of CMB to the nearest Kelvin? + wn + 3
 CMB can be seen as a faint glow at what wavelength? + rb + X-ray; UV; Visible light; IR; Microwave; Radio wave + 5
 Tick all of the statements about CMB that are correct. + cb + It is an ever-permeating background radiation; It stands for Cosmic Minute Background (radiation); It was first discovered by specialist COBE probes in 1960; It was first discovered by accident by radio ECHO balloons in 1965; NASA launched COBE and WMAP probes to study it in more detail; It has a very irregular temperature + 1;4;5
