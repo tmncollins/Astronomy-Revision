@@ -61,11 +61,8 @@ function selSampleImg() {
 	diagrams = shuffle(diagrams);
 	var imgName = diagrams[0];
 	
-	var img = createImageElement(imgName, "sample diagram");
-	var d = document.getElementById("sampleimg");
-	var c = img.childNodes;
-	alert(c[0] +c + img);
-	d.innerHTML = img;
+	var img = document.getElementById("img1");
+	img.setAttribute('src', imgName);
 	
 }
 
