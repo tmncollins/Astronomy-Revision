@@ -57,7 +57,7 @@ function shuffle(array) {
 }
 
 function selSampleImg() {
-	var diagrams = ["galaxies-diagram.png", "Constellations.png", "Eclipsing Binaries.png", "Heliocentric parallax.png"];
+	var diagrams = ["galaxies-diagram.png", "Constellations.png", "Eclipsing Binaries.png", "Heliocentric Parallax.png", "Optical Telescope.png", "Refraction by Lenses", "Star Pointers - Orion.png", "Star Pointers - The Great Square.png","Star Pointers - The Plough.png"];
 	diagrams = shuffle(diagrams);
 	var imgName = diagrams[0];
 	
