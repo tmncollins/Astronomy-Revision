@@ -63,7 +63,7 @@ function selSampleImg() {
 	
 	var img = createImageElement(imgName, "sample diagram");
 	var d = document.getElementById("sampleimg");
-	d.innerHTML = img;
+	d.innerHTML = img[0];
 	
 }
 
