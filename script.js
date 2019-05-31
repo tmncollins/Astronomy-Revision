@@ -73,7 +73,7 @@ function getQuizNum() {
   return sessionStorage.getItem('quiz_num');
 }
 function getQuizFileName(num) {
-  var array = [ "naked-eye-quiz.txt", "", "earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt", "", "stars-quiz.txt", "comets-quiz.txt", "exoplanet-quiz.txt", "", "stars-quiz.txt", "star-evolution.txt", "galaxy-quiz.txt", "cosmology-quiz.txt", "telescope-quiz.txt", "exploration-quiz.txt"];
+  var array = [ "naked-eye-quiz.txt", "", "earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt", "solar-system-1.txt", "", "comets-quiz.txt", "exoplanet-quiz.txt", "", "stars-quiz.txt", "star-evolution.txt", "galaxy-quiz.txt", "cosmology-quiz.txt", "telescope-quiz.txt", "exploration-quiz.txt"];
   return array[num-1];
 }
 
