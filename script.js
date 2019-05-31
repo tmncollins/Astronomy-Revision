@@ -56,6 +56,17 @@ function shuffle(array) {
     return array;
 }
 
+function selSampleImg() {
+	var diagrams = ["galaxies-diagram.png", "Constellations.png", "Eclipsing Binaries.png", "Heliocentric parallax.png"];
+	diagrams = shuffle(diagrams);
+	var imgName = diagrams[0];
+	
+	var img = createImageElement(imgName, "sample diagram");
+	var d = document.getElementById("sampleimg");
+	d.appendChild(img);
+	
+}
+
 function getQuizName() {
   return sessionStorage.getItem('quiz_name');
 }
@@ -63,7 +74,7 @@ function getQuizNum() {
   return sessionStorage.getItem('quiz_num');
 }
 function getQuizFileName(num) {
-  var array = [ "naked-eye-quiz.txt", "", "earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt", "", "stars-quiz.txt", "comets-quiz.txt", "exoplanet-quiz.txt", "", "stars-quiz.txt", "star-evolution.txt", "galaxy-quiz.txt", "cosmology-quiz.txt", "telescope-quiz.txt", ""];
+  var array = [ "naked-eye-quiz.txt", "", "earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt", "", "stars-quiz.txt", "comets-quiz.txt", "exoplanet-quiz.txt", "", "stars-quiz.txt", "star-evolution.txt", "galaxy-quiz.txt", "cosmology-quiz.txt", "telescope-quiz.txt", "exploration.txt"];
   return array[num-1];
 }
 
