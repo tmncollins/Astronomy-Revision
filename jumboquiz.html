@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <script src="script.js"></script>
+  <script src="mark.js"></script>
+  <title>Jumbo Quiz</title>
+</head>
+<body>
+  <br>
+  <h1>Jumbo Quiz</h1>
+  <br>
+  <div id="scorediv" class="hide"><h1 id="title">Your Score</h1><br>
+    <centre><p class="score" id="score">0</p></centre></div>
+  <br>
+  <script>
+  document.getElementById("ti").innerHTML = getQuizName();
+  document.getElementById("title").innerHTML = getQuizName();
+  var text = "";
+  var files = [ "naked-eye-quiz.txt", "earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt", "solar-system-1.txt", "solar-system-2.txt", "comets-quiz.txt", "exoplanet-quiz.txt", "stars-quiz.txt", "star-evolution.txt", "galaxy-quiz.txt", "cosmology-quiz.txt", "telescope-quiz.txt", "exploration-quiz.txt"];;
+  for (var i = 0; i < files.length; i++) {
+      var toadd = readTextFile(files[i]);
+      toadd.pop();
+      text = text + toadd;
+  }
+  
+  makeQuiz(text);
+  </script>
+  <br>
+  <center><button type="button" class="submit" onclick="markQuiz()">SUBMIT</button></center>
+  <br>
+  
+</body>
