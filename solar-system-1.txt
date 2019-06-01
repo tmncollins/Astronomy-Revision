@@ -26,3 +26,4 @@ Which planets have probes landed on? Tick all that apply. + cb + Mercury; Venus;
 What shape is the Solar System? + rb + Sphere; Flattened Disc; Pyramid; Spheroid + 2
 Explain how the Solar System was created. Tick all that apply. + cb + 13 billion years ago, the Solar System condensed from a cloud of dust; 4.6 billion years ago, the Solar System condensed from a cloud of dust; This dust cloud was called the Primeval Nebula; As it condensed the cloud fractured; The Sun formed first; Collision between dust and rock particles formed the inner rocky planets + 2;3;4;5;6
 Why is Pluto not always the furthest planet from the Sun? + rb + It crosses into Neptune's orbit; It crosses into Uranus's Orbit; It has an orbit like a comet, bringing it close to the Sun and then far from the Sun + 1
+The Olympus Mons is a shield volcano with an rough area of the size of France. How tall is it in km? + wn + 22
