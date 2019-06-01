@@ -18,9 +18,10 @@
   for (i = 0; i < files.length; i++) {
       alert(files[i]);
       var toadd = readTextFile(files[i]);
-      alert(toadd);
+      toadd = toadd.split("\n");
       toadd.pop();
-      alert("toadd pop")
+      toadd = toadd.join("\n");
+      
       text = text + toadd;
       alert("done");
   }
