@@ -102,8 +102,13 @@ function readTextFile(file)
 }
 
 function makeQuiz(file)  {
+	
+  if (file.indexOf(".txt") > -1) {
+	  var text = readTextFile(file);
+  } else {
+	  var text = file;
+  }
   
-  var text = readTextFile(file);
   var lines = text.split("\n");
   
   lines.pop();
