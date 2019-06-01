@@ -12,11 +12,10 @@
     <centre><p class="score" id="score">0</p></centre></div>
   <br>
   <script>
-  document.getElementById("ti").innerHTML = getQuizName();
-  document.getElementById("title").innerHTML = getQuizName();
   var text = "";
   var files = [ "naked-eye-quiz.txt", "earth-quiz.txt", "moon-quiz.txt", "sun-quiz.txt", "solar-system-1.txt", "solar-system-2.txt", "comets-quiz.txt", "exoplanet-quiz.txt", "stars-quiz.txt", "star-evolution.txt", "galaxy-quiz.txt", "cosmology-quiz.txt", "telescope-quiz.txt", "exploration-quiz.txt"];;
-  for (var i = 0; i < files.length; i++) {
+  var i;
+  for (i = 0; i < files.length; i++) {
       var toadd = readTextFile(files[i]);
       toadd.pop();
       text = text + toadd;
