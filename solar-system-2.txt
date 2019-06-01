@@ -1,29 +1,29 @@
-Tick all of the moons that are moons of Jupiter + cb + The Moon; Ganymede; Phobos; Io; Titan; Charon; Calisto; Europa + 2;4;7;8
+Tick all of the moons that are moons of Jupiter. + cb + The Moon; Ganymede; Phobos; Io; Titan; Charon; Calisto; Europa + 2;4;7;8
 When a moon is furthest from its planet it is at its... + ww + apogee
 When a moon is closest to its planet it is at its... + ww + perigee
 When a moon is obscured by its planet, it has been... + ww + occult
-When a moon is hidden in the shadow that its planet casts into space, it has been... + ww + ecplipse
+When a moon is hidden in the shadow that its planet casts into space, it has been... + ww + eclipse
 When a moon crosses its planet's surface it is in... + ww + transit
 When 3 bodies line up, the two on the edge are said to be in... + ww + conjunction
 When the Sun, Earth and another body lines up, with the Earth in the middle, the body on the edge is said to be in... + ww + opposition
-Tick all of the statements about Dwarf Planets that are correct + ww + Pluto has always been a Dwarf Planet; Ceres is the closest Dwarf Planet to the Sun; Haumea is the closest Dwarf Planet to the Sun; Makemake is the furthest Dwarf Planet from the Sun; Eris is the furthest Dwarf Planet from the Sun; Pluto only has 1 moon; Pluto is the largest Dwarf Planet; Eris is the largest Dwarf Planet + 2;5;8
-Tick all of the Dwarf Planets that are in the Asteroid Belt + cb + Pluto; Makemake; Haumea; Ceres; Eris + 4
-Tick all of the Dwarf Planets that are in the Kuiper Belt + cb + Pluto; Makemake; Haumea; Ceres; Eris + 1;2;3
-Tick all of the Dwarf Planets that are in the Scattered Disc + cb + Pluto; Makemake; Haumea; Ceres; Eris + 5
+Tick all of the statements about Dwarf Planets that are correct + cb + Pluto has always been a Dwarf Planet; Ceres is the closest Dwarf Planet to the Sun; Haumea is the closest Dwarf Planet to the Sun; Makemake is the furthest Dwarf Planet from the Sun; Eris is the furthest Dwarf Planet from the Sun; Pluto only has 1 moon; Pluto is the largest Dwarf Planet; Eris is the largest Dwarf Planet + 2;5;8
+Tick all of the Dwarf Planets that are in the Asteroid Belt. + cb + Pluto; Makemake; Haumea; Ceres; Eris + 4
+Tick all of the Dwarf Planets that are in the Kuiper Belt. + cb + Pluto; Makemake; Haumea; Ceres; Eris + 1;2;3
+Tick all of the Dwarf Planets that are in the Scattered Disc. + cb + Pluto; Makemake; Haumea; Ceres; Eris + 5
 Objects in our Solar System that are found outside the orbit of Neptune are called... + rb + Post-Neptunian Objects; Exo-Objects; Trans-Neptunian Objects; Cosmic Background Objects + 3
 Tick all of the statements about the Kuiper Belt that are correct. + cb + It is 30 AU to 50 AU from the Sun; 100 times as large as the Asteroid Belt; Composed largely of rocky debris; Composed largely of frozen volatiles; It is the home of long-period comets + 1;4
 Tick all of the statements about the Scattered Disc that are correct. + cb + It is 30 AU to 55 AU from the Sun; It is 55 AU to 100＋ AU from the Sun; It is the home of long-period comets; It is the home of periodic comets; It is densely populated by small icy bodies + 2;4
-Tick all of the statements about the Oort Clous that are correct. + cb + It is a hypothetical cloud of comets; It is composes of mainly dark matter; It has a width of 100,000 AU; It marks the edge of the Solar System; It is the home of long-period comets; It is the home of periodic comets + 1;3;4;5
+Tick all of the statements about the Oort Cloud that are correct. + cb + It is a hypothetical cloud of comets; It is composes of mainly dark matter; It has a width of 100,000 AU; It marks the edge of the Solar System; It is the home of long-period comets; It is the home of periodic comets + 1;3;4;5
 State Kepler's 1st Law of Planetary Motion. + rb + Each planet revolves around the Sun with the Sun at one focus and the other is empty; The force of a planet is equal to its mass multiplied by its acceleration; As a planet revolves around the Sun, the radius vector sweeps out equal areas at equal times; If a planet is moving fast enough, it can overcome and escape the gravitational influence of its star + 1
 State Kepler's 2nd Law of Planetary Motion. + rb + Each planet revolves around the Sun with the Sun at one focus and the other is empty; The force of a planet is equal to its mass multiplied by its acceleration; As a planet revolves around the Sun, the radius vector sweeps out equal areas at equal times; If a planet is moving fast enough, it can overcome and escape the gravitational influence of its star + 3
 Kepler's 2nd Law of Planetary Motion means... + rb + planets move faster at the Aphelion; planets move slower at the Aphelion + 2
 What is the following statement describing? "It is the force responsible for maintaining orbits and it obeys the inverse square law". + ww + gravity
 Who developed the first serious Heliocentric mode of the Solar System? + ww + copernicus
-The astronomer Tycho is famous because... + He discovered Pluto; He developed the first Heliocentric model of the Solar System; He was the first person to photograph the curvature of the Earth; He studied planets with incredible accuracy for his time + 4
+The astronomer Tycho is famous because... + rb + He discovered Pluto; He developed the first Heliocentric model of the Solar System; He was the first person to photograph the curvature of the Earth; He studied planets with incredible accuracy for his time + 4
 Kepler's Laws of Planetary Motion were derived from whose observations of Mars? + ww + tycho
 When Galileo first observed the moons of Jupiter he thought that they were attached to the planet by springs. Explain why he thought this. + rb + He observed fuzzy grey coils between the moons and Jupiter. He though that these were giant springs, but in fact they were dust clouds; As the moons orbited Jupiter, they sped up when they were closer and then slowed down when they were further away. This is the same motion they would make if they were attached by springs; The orbital plane of Jupiter's moons is edge on to the Earth, so the moons appear to make a reciprocating motion, the same motion they would make if they were attached by springs + 3
 Galileo discovered a lot of new features of the Solar System. Tick 3 examples. + cb + Phases of Venus; Saturn; The satellites of Jupiter; Relief features of the Moon + 1;3;4
 Tick all of the hazards of manned space exploration that are correct. + cb + Radiation risk; Zero gravity causes muscle wasting, brittle bones and nausea; Living with the same group of people can cause irritability + 1;2;3
-What is the following statement describing? "". + rb + Space Probes; Rovers; Telescope; Landing Modules + 1
-What is the following statement describing? "". + rb + Space Probes; Rovers; Telescope; Landing Modules + 1
+What is the following statement describing? "They are used to photograph celestial bodies by either flying past them, orbiting them or landing on them. Different data is collected and then beamed back to Earth". + rb + Space Probes; Rovers; Telescope; Landing Modules + 1
+What is the following statement describing? "They land on celestial bodies and are able to move around on the surface to see different places and analyse different areas". + rb + Space Probes; Rovers; Telescope; Landing Modules + 2
 Io orbits Jupiter at a distance of 422,000km and with a time period of 1.77 days. Callisto orbits Jupiter at a distance of 1,883,000km. What is its time period in days (to 1 d.p.)? + ww + 16.7
