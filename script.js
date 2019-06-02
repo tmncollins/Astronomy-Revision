@@ -6,9 +6,9 @@ function newPage(name, num) {
 
 function createRadioElement(name, value, checked, id) {
 	  if (checked) {
-      var radioHtml = '<label class="container" id="' + id + '">' + value + '<input type="radio" checked="checked" name="' + name + '"><span class="checkmark"></span></label>';
+      var radioHtml = '<label class="container"><div id="' + id + '">' + value + '</div><input type="radio" checked="checked" name="' + name + '"><span class="checkmark"></span></label>';
     } else {
-        var radioHtml = '<label class="container" id="' + id + '">' + value + '<input type="radio" name="' + name + '"><span class="checkmark"></span></label>';
+        var radioHtml = '<label class="container"><div id="' + id + '">' + value + '</div><input type="radio" name="' + name + '"><span class="checkmark"></span></label>';
     }
 
     var radioFragment = document.createElement('div');
