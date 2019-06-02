@@ -106,7 +106,7 @@ alert(text);
 				a.setAttribute('class', "white");
 			} else if (type == " cb ") {
 				var b = answer.split(";");
-				for (var qq = 0; qq < b.length; b++) {
+				for (var qq = 0; qq < b.length; qq++) {
 					var a = document.getElementById(i.toString(10) + "cb" + b[qq].trim());
 					a.setAttribute('class', "white");					
 				}
@@ -123,7 +123,6 @@ alert(text);
 				a.setAttribute('class', "green");
 			} else if (type == " cb ") {
 				var b = answer.split(";");
-				alert(b);
 				for (var qq = 0; qq < b.length; qq++) {
 					var a = document.getElementById(i.toString(10) + "cb" + b[qq].trim());
 					a.setAttribute('class', "green");					
