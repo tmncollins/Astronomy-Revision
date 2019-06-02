@@ -16,3 +16,4 @@ What is the following statement describing? "Highly compact galaxies that look l
 How big is the Local Group to the nearest Mpc? + wn + 3
 The Local Group contains roughly 50 galaxies. Tick all of the galaxies this includes. + cb + The Milky Way; The Triangulum Galaxy; The Lupus Galaxy; The Lobed Galaxy; The Nubus Galaxy + 1;2
 What is the correct order of classifaction from smallest to largest? + rb + Solar System -> Galaxy -> Local Group -> Local Cluster -> Super Cluster; Solar System -> Galaxy -> Local Cluster -> Super Cluster -> Local Group; Local Group -> Solar System -> Galaxy -> Local Cluster -> Super Cluster + 1
+How do stars in Globular Clusters differ from stars in the Milky Way? Tick all that apply. + cb + They are younger; They are older; They are redder; They are bluer; They are hotter; They are colder + 2;3;6
