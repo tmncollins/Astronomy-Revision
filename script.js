@@ -4,11 +4,11 @@ function newPage(name, num) {
   sessionStorage.setItem('quiz_name', name);
 }
 
-function createRadioElement(name, value, checked) {
+function createRadioElement(name, value, checked, id) {
 	  if (checked) {
-      var radioHtml = '<label class="container">' + value + '<input type="radio" checked="checked" name="' + name + '"><span class="checkmark"></span></label>';
+      var radioHtml = '<label class="container"><p id="' + id + '">' + value + '</p><input type="radio" checked="checked" name="' + name + '"><span class="checkmark"></span></label>';
     } else {
-        var radioHtml = '<label class="container">' + value + '<input type="radio" name="' + name + '"><span class="checkmark"></span></label>';
+        var radioHtml = '<label class="container"><p id="' + id + '">' + value + '</p><input type="radio" name="' + name + '"><span class="checkmark"></span></label>';
     }
 
     var radioFragment = document.createElement('div');
@@ -168,7 +168,7 @@ lines.forEach(function(item, index) {
   else if (type == " rb ") {
     var opt = curr[2].split(";");
     opt.forEach(function(option, ind) {
-      var inp = createRadioElement(index.toString(), option, 0);
+      var inp = createRadioElement(index.toString(), option, 0, index.toString(10) + "rb" + ind.toString());
       q.appendChild(inp);  
     });
     
