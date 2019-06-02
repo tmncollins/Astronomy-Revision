@@ -110,11 +110,8 @@ alert(text);
 				var p = document.getElementById("ans" + i.toString(10));
 				p.setAttribute('class', "show");
 			} else if (type == " rb ") {
-				alert("rb" + i.toString(10) + "rb" + answer.trim());
 				var a = document.getElementById(i.toString(10) + "rb" + answer.trim());
-				alert(a);
 				a.setAttribute('class', "green");
-				alert("green");
 			}
 		}
 			
