@@ -109,6 +109,9 @@ alert(text);
 			if (type == " ww " || type == " wn ") {
 				var p = document.getElementById("ans" + i.toString(10));
 				p.setAttribute('class', "show");
+			} else if (type == "rb") {
+				var a = document.getElementById(i.toString(0) + "rb" + ans.trim());
+				a.setAttribute('class', "green");
 			}
 		}
 			
