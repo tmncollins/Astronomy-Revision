@@ -123,8 +123,9 @@ alert(text);
 				a.setAttribute('class', "green");
 			} else if (type == " cb ") {
 				var b = answer.split(";");
-				for (var i = 0; i < b.length; b++) {
-					var a = document.getElementById(i.toString(10) + "cb" + b[i].trim());
+				alert(b);
+				for (var qq = 0; qq < b.length; qq++) {
+					var a = document.getElementById(i.toString(10) + "cb" + b[q].trim());
 					a.setAttribute('class', "green");					
 				}
 			}
