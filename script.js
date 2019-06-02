@@ -168,7 +168,7 @@ lines.forEach(function(item, index) {
   else if (type == " rb ") {
     var opt = curr[2].split(";");
     opt.forEach(function(option, ind) {
-      var inp = createRadioElement(index.toString(), option, 0, index.toString(10) + "rb" + ind.toString());
+      var inp = createRadioElement(index.toString(), option, 0, index.toString(10) + "rb" + (ind+1).toString(10));
       q.appendChild(inp);  
     });
     
