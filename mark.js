@@ -101,6 +101,15 @@ alert(text);
 			if (type == " ww " || type == " wn ") {
 				var p = document.getElementById("ans" + i.toString(10));
 				p.setAttribute('class', "hide");
+			} else if (type == " rb ") {
+				var a = document.getElementById(i.toString(10) + "rb" + answer.trim());
+				a.setAttribute('class', "white");
+			} else if (type == " cb ") {
+				var b = answer.split(";");
+				for (var i = 0; i < b.length; b++) {
+					var a = document.getElementById(i.toString(10) + "cb" + b[i].trim());
+					a.setAttribute('class', "white");					
+				}
 			}
 		}
 		else {
@@ -112,6 +121,12 @@ alert(text);
 			} else if (type == " rb ") {
 				var a = document.getElementById(i.toString(10) + "rb" + answer.trim());
 				a.setAttribute('class', "green");
+			} else if (type == " cb ") {
+				var b = answer.split(";");
+				for (var i = 0; i < b.length; b++) {
+					var a = document.getElementById(i.toString(10) + "cb" + b[i].trim());
+					a.setAttribute('class', "green");					
+				}
 			}
 		}
 			
