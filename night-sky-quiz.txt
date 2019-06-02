@@ -1,0 +1,11 @@
+Stars are grouped into patterns. These patterns are called... + ww + constellation
+Smaller groups of stars arranged into memorable shapes, such as the plough, are called... + ww + asterism
+What is the name of this constellation? + img +constel1.jpg+ ww + cassiopeia
+What is the name of this constellation? + img +constel2.jpg+ ww + cygnus
+How many internationally recognised constellations are there? + wn + 180
+Constellations on the ecliptic... + rb + are seasonal; can be seen all year round; are larger than other constellations + 1
+Tick all of the statements about constellations that are correct + cb + Many cultures have different constellations; Constellations are often named after heroes in mythology; The first list of constellations wasn't made until 1500 AD; The 14 "missing" Southern constellations were filled in by a French astronomer; The 14 "missing" Southern constellations were named after the other Northern ones, but with the prefix "New" + 1;2;4
+Lyra is a constellation. Star X is known as Lyra β. What does this tell us about Star X? + It is the brightest star in the constellation; It was the first star in the constellation to be discovered; It is the second brightest star in the constellation; It is the second biggest star in the constellation + 3
+The point of the celestial sphere directly above the observer is called the... + ww + zenith
+Celestial latitude on the Celestial Sphere is measured in degrees and is known as... + ww + declination
+Tick all of the statements about the Celestial Sphere that are correct. + cb + It is the apparent sphere of celestial bodies around the Sun; The observer's horizon is a plane with a centre at the centre of the Earth
