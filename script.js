@@ -6,9 +6,9 @@ function newPage(name, num) {
 
 function createRadioElement(name, value, checked, id) {
 	  if (checked) {
-      var radioHtml = '<label class="container"><p id="' + id + '">' + value + '</p><input type="radio" checked="checked" name="' + name + '"><span class="checkmark"></span></label>';
+      var radioHtml = '<label class="container" id="' + id + '">' + value + '<input type="radio" checked="checked" name="' + name + '"><span class="checkmark"></span></label>';
     } else {
-        var radioHtml = '<label class="container"><p id="' + id + '">' + value + '</p><input type="radio" name="' + name + '"><span class="checkmark"></span></label>';
+        var radioHtml = '<label class="container" id="' + id + '">' + value + '<input type="radio" name="' + name + '"><span class="checkmark"></span></label>';
     }
 
     var radioFragment = document.createElement('div');
@@ -16,7 +16,7 @@ function createRadioElement(name, value, checked, id) {
 
     return radioFragment;
 }
-function createCheckboxElement(name, value, checked) {
+function createCheckboxElement(name, value, checked, id) {
 	  if (checked) {
       var radioHtml = '<label class="checkcontainer">' + value + '<input type="checkbox" checked="checked" name="' + name + '"><span class="checkcheckmark"></span></label>';
     } else {
@@ -176,7 +176,7 @@ lines.forEach(function(item, index) {
   else if (type == " cb ") {
     var opt = curr[2].split(";");
     opt.forEach(function(option, ind) {
-      var inp = createCheckboxElement(index.toString(), option, 0);
+      var inp = createCheckboxElement(index.toString(), option, 0, index.toString(10) + "rb" + (ind+1).toString(10));
       q.appendChild(inp);  
     });
     
@@ -215,7 +215,7 @@ else if (type == " img ") {
 	  else if (type == " rb ") {
 	    var opt = curr[4].split(";");
 	    opt.forEach(function(option, ind) {
-	      var inp = createRadioElement(index.toString(), option, 0);
+	      var inp = createRadioElement(index.toString(), option, 0, index.toString(10) + "rb" + (ind+1).toString(10));
 	      q.appendChild(inp);  
 	    });
 
@@ -223,7 +223,7 @@ else if (type == " img ") {
 	  else if (type == " cb ") {
 	    var opt = curr[4].split(";");
 	    opt.forEach(function(option, ind) {
-	      var inp = createCheckboxElement(index.toString(), option, 0);
+	      var inp = createCheckboxElement(index.toString(), option, 0, index.toString(10) + "rb" + (ind+1).toString(10));
 	      q.appendChild(inp);  
 	    });
 
