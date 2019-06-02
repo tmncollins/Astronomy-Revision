@@ -8,4 +8,14 @@ Tick all of the statements about constellations that are correct + cb + Many cul
 Lyra is a constellation. Star X is known as Lyra β. What does this tell us about Star X? + It is the brightest star in the constellation; It was the first star in the constellation to be discovered; It is the second brightest star in the constellation; It is the second biggest star in the constellation + 3
 The point of the celestial sphere directly above the observer is called the... + ww + zenith
 Celestial latitude on the Celestial Sphere is measured in degrees and is known as... + ww + declination
-Tick all of the statements about the Celestial Sphere that are correct. + cb + It is the apparent sphere of celestial bodies around the Sun; The observer's horizon is a plane with a centre at the centre of the Earth
+Tick all of the statements about the Celestial Sphere that are correct. + cb + It is the apparent sphere of celestial bodies around the Sun; The observer's horizon is a plane with a centre at the centre of the Earth that is perpendicular to the observer; Right Ascension is measured in hours and acts as celestial longitude; The Pole Star is directly above the Pole of the Ecliptic; The Pole Star is directly above the Earth's North Pole + 2;3;5
+The current Pole Star is called... + ww + polaris
+The declination of the Pole Star is in degrees is... + wn + 90
+When observed from a certain latitude, a star is Circumpolar if... + rb + Latitude ＋ Declination < 90; Latitude ＋ Declination > 90; Latitude - Declination < 90; Latitude - Declination = 90 + 2
+A star cannot be seen from a certain latitude if... + rb + Latitude - Declination < 90; Latitude - Declination > 90; Declination - Latitude = 90; Declination - Latitude + 45 > 90 + 2
+Tick all of the statements about Star Charts that are correct. + cb + They are used to plan an observing session; The Zodiacal Band straddles the Ecliptic by 8°; The Zodiacal Band is the part of the sky in which the constellations of the Zodiac are contained; The planets are found within the Zodiacal Band; The Ecliptic line marks the Sun's path across the sky +  1;2;3;4;5
+How long does it take the eye to fully adjust to the darkness for observation? + rb + 5 minutes; 15 minutes; 30 minutes; 60 minutes + 3
+Stars appear to travel... + rb + from East to West; from West to East + 1
+Tick all the statements about culmination that are correct. + Culmination means the rising or setting of a star; Stars culminate due South in the Northern Hemisphere; Stars culminate due North in the Northern Hemisphere; Stars are at their highest when culminating + 2;4
+Tick all of the equipment needed for naked-eye observation. + cb + Red torch; White torch; Clipboard; Pencil; Rubber; Warm clothes; Telescope + 1;3;4;5;6
+Tick all of the statements about the Messier Catalogue that are correct. + cb + It is a list of objects invisible to the naked eye; A telescope is needed to see them clearly; It was made in 1781 by French Charles Messier; It was made in 1987 by French Paul Messier; It contain under 80 objects; It contains over 100 objects; It was created to avoid confusion with comets + 2;3;6;7
