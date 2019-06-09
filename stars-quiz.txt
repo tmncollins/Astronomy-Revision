@@ -5,9 +5,9 @@ Absolute Brightness is equal to the Apparent Brightness of a star if it was obse
 How many trillion km are in 1 parsec? + wn + 30
 How many times brighter is Star A than Star B is they an Absolute Magnitude difference of 5? + wn + 100
 The Sun is 5 millionths of a parsec from the Earth and has an Apparent Magnitude of -26.7. Calculate its Absolute Magnitude (to 1 d.p.) + ww + 4.8
-The total angular shift of Star X is observed to be 0.0016°. How far away is Star X in parsecs? + wn + 1250
+The total angular shift of Star X is observed to be 0.0016 arcseconds. How far away is Star X in parsecs? + wn + 1250
 What is the name of the technique of distancing stars that measures the change in angular shift of the star as observed from Earth? + rb + Angle Distancing; Binary Distancing; Heliocentric Parallax; Earth Parallax + 3
-Mars is 1.5 AU from the Sun. The total angular shift of Star X is observed to be 0.0015° from Mars. How far away is Star X to the nearest parsec? + wn + 889
+Mars is 1.5 AU from the Sun. The total angular shift of Star X is observed to be 0.0015 arcseconds from Mars. How far away is Star X to the nearest parsec? + wn + 889
 Tick all of the statements about Cepheid variable stars that are correct. + cb + They are giant yellow stars that regularly expand and contract; As the star changes size, its temperature changes dramatically, allowing it to fuse heavier elements; As the star changes size, its luminosity changes dramatically; The fluctuations of the size of Cepheid stars are irregular; Their light curves have a sharp rise and a slow decay; Leavitt discovered a relationship between a Cepheid's period and its Absolute Magnitude; Clusters of Cepheid variable stars can be used to determine distances + 1;3;5;6;7
 2 stars that appear to be close together are called... + rb + Binary stars; Twin stars; Sister stars; Optical Double Stars + 4
 Tick all of the statements about Binary Stars that are correct. + cb + They appear as 1 star from Earth; Their light mainly constant but has 2 dips during star transit; Binary stars can be detected by the Doppler Shift + 1;2;3
