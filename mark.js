@@ -11,7 +11,6 @@ function markQuiz() {
 	  }
 	  text[i] = ans;
   }
-alert(text);
   	var counter = 0;
 	var correct = 0;
 	var i;
